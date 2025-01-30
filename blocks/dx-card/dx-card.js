@@ -21,7 +21,7 @@ sectionElem.appendChild(containerDiv);
 var containerInsideDiv = document.createElement('div');
 //adding class
 containerInsideDiv.setAttribute('class','flex-container');
-containerInsideDiv.classList.add('flex-container--single-row', 'flex-container--center');
+containerInsideDiv.classList.add('flex-container--single-row','flex-container--center');
 containerDiv.appendChild(containerInsideDiv);
 
 //Creating Inside div two
@@ -34,7 +34,7 @@ containerInsideDiv.appendChild(containerInsideDivtwo);
 var articleElem = document.createElement('article');
 //adding class to article
 articleElem.setAttribute('class','tile');
-containerInsideDiv.classList.add('tile--featured', 'tile--card', 'bg-color', 'tile--image-right', 'tile--simulate-links');
+articleElem.classList.add('tile--featured','tile--card','bg-color','tile--image-right','tile--simulate-links');
 containerInsideDivtwo.appendChild(articleElem);
 
 //Creating Inside div three
@@ -52,6 +52,8 @@ containerInsideDivthree.appendChild(containerInsideDivfour);
 
 var pict = document.querySelector('.dx-card > div > div > picture');
 containerInsideDivfour.appendChild(pict);
+
+document.querySelector('.tile-image > .adpimg__container > picture > img').setAttribute('class', 'adpimg__img')
 
 //creating div container two
 var containerDivTwo = document.createElement('div');
