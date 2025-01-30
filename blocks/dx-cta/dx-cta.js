@@ -9,7 +9,7 @@ containerDiv.classList.add('cta-wrapper--row','cta-wrapper--center');
 mainDiv.appendChild(containerDiv);
 
 var endingAnchor = document.createElement('a');
- var insightContentOne = document.querySelector('.dx-cta > div > div > p');
+ var insightContentOne = document.querySelector('.dx-cta > div > div > p').innerText;
  endingAnchor.setAttribute('id','cta-1-533502-508572');
  endingAnchor.setAttribute('class','btn');
 endingAnchor.classList.add('btn--primary','btn--medium');
