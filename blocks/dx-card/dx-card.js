@@ -400,8 +400,8 @@ containertwoUL.appendChild(containerLItwoSix);
 //-------------------------------------------------------
 
 //Getting main Div container
-var mainDivone = document.querySelector('.dx-cta');
-mainDivone.classList.add('cta');
+var mainDivone = document.createElement('div');
+mainDivone.setAttribute('class','cta');
 containerDivCardTwo.appendChild(mainDivone);
 //creating div
 var containerDivv = document.createElement('div');
