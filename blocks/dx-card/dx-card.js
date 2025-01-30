@@ -80,7 +80,7 @@ containerTwoInsideDivTwo.appendChild(containerTwoInsideDivThree);
 //Creating Inside div four para container two with value
 var containerTwoInsideDivFour = document.createElement('p');
 containerTwoInsideDivThree.appendChild(containerTwoInsideDivFour);
-var containerTwoInsideDivFourValue = document.querySelectorAll('.dx-card > div > div > p')[0].textContent;
+var containerTwoInsideDivFourValue = document.querySelector('.dx-card > div > div > p').textContent;
 containerTwoInsideDivFour.innerHTML = containerTwoInsideDivFourValue;
 
 //Creating Inside five div container two
@@ -98,7 +98,7 @@ containerTwoInsideDivFive.appendChild(containerTwoInsideDivSix);
 
 //Creating Inside div seven para container two with value
 var containerTwoInsideDivSeven = document.createElement('p');
-var containerTwoInsideDivSevenValue = document.querySelectorAll('.dx-card > div > div > p')[1].textContent;
+var containerTwoInsideDivSevenValue = document.querySelector('.dx-card > div > div > p').textContent;
 containerTwoInsideDivSix.appendChild(containerTwoInsideDivSeven);
 containerTwoInsideDivSeven.innerHTML = containerTwoInsideDivSevenValue;
 
