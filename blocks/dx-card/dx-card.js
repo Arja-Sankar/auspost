@@ -400,15 +400,15 @@ containertwoUL.appendChild(containerLItwoSix);
 //-------------------------------------------------------
 
 //Getting main Div container
-var mainDiv = document.querySelector('.dx-cta');
-mainDiv.classList.add('cta');
-containerDivCardTwo.appendChild(mainDiv);
+var mainDivone = document.querySelector('.dx-cta');
+mainDivone.classList.add('cta');
+containerDivCardTwo.appendChild(mainDivone);
 //creating div
 var containerDiv = document.createElement('div');
 //adding class to container Div
 containerDiv.setAttribute('class','cta-wrapper');
 containerDiv.classList.add('cta-wrapper--row','cta-wrapper--center');
-mainDiv.appendChild(containerDiv);
+mainDivone.appendChild(containerDiv);
 
 //Anchor tag embeded
 var endingAnchor = document.createElement('a');
