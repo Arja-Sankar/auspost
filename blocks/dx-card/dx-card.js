@@ -8,7 +8,7 @@ var sectionElem = document.createElement('section');
 //adding Id to section
 sectionElem.setAttribute('class','layout-container');
 //adding classNames to section
-mainDiv.classList.add('clearfix', 'bg-color--shell', 'no-padding--bottom');
+sectionElem.classList.add('clearfix', 'bg-color--shell', 'no-padding--bottom');
 mainDiv.appendChild(sectionElem);
  
 //creating div
