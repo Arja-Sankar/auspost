@@ -404,11 +404,11 @@ var mainDivone = document.querySelector('.dx-cta');
 mainDivone.classList.add('cta');
 containerDivCardTwo.appendChild(mainDivone);
 //creating div
-var containerDiv = document.createElement('div');
+var containerDivv = document.createElement('div');
 //adding class to container Div
-containerDiv.setAttribute('class','cta-wrapper');
-containerDiv.classList.add('cta-wrapper--row','cta-wrapper--center');
-mainDivone.appendChild(containerDiv);
+containerDivv.setAttribute('class','cta-wrapper');
+containerDivv.classList.add('cta-wrapper--row','cta-wrapper--center');
+mainDivone.appendChild(containerDivv);
 
 //Anchor tag embeded
 var endingAnchor = document.createElement('a');
@@ -422,7 +422,7 @@ endingAnchor.setAttribute('title',insightContentOne);
 endingAnchor.setAttribute('data-event','site interaction');
 endingAnchor.setAttribute('data-category','|btn');
 endingAnchor.setAttribute('data-description','enquire-about-a-startrack-account');
-containerDiv.appendChild(endingAnchor);
+containerDivv.appendChild(endingAnchor);
 endingAnchor.innerHTML = insightContentOne;
 document.querySelectorAll('.dx-cta > div > div > p')[0].style.display = 'none'
 document.querySelectorAll('.dx-cta > div > div > p')[1].style.display = 'none'
