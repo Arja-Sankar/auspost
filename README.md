@@ -3,9 +3,10 @@ Aus Post Franklin demo
 
 ## Environments
 - Preview: https://main--{repo}--{owner}.aem.page/
-- Preview: https://main--auspost--arja-sankar.hlx.page/
-- Live: https://main--{repo}--{owner}.aem.live/
-- Live: https://main--auspost--arja-sankar.hlx.live/
+- - Live: https://main--{repo}--{owner}.aem.live/
+  - 
+- Preview: https://main--auspost--arja-sankar.aem.page/
+- Live: https://main--auspost--arja-sankar.aem.live/
 
 ## Documentation
 
