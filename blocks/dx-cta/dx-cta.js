@@ -14,7 +14,7 @@ var endingAnchor = document.createElement('a');
  endingAnchor.setAttribute('class','btn');
 endingAnchor.classList.add('btn--primary','btn--medium');
   endingAnchor.setAttribute('href','/sales-enquiry');
-  endingAnchor.setAttribute('title',insightContentOne);
+  endingAnchor.setAttribute('title','Enquire about a StarTrack account');
     endingAnchor.setAttribute('data-event','site interaction');
 endingAnchor.setAttribute('data-category','|btn');
 endingAnchor.setAttribute('data-description','enquire-about-a-startrack-account');
