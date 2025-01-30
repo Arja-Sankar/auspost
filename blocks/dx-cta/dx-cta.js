@@ -10,7 +10,7 @@ mainDiv.appendChild(containerDiv);
 
 var endingAnchor = document.createElement('a');
 //var insightContentOne = document.querySelectorAll('.dx-cta > div > div > p')[0].innerText
-var insightContentlink = document.querySelectorAll('.dx-cta > div > div > p')[1].textContent;
+var insightContentlink = document.querySelectorAll('.dx-cta > div > div > p')[1];
 endingAnchor.setAttribute('id','cta-1-533502-508572');
 endingAnchor.setAttribute('class','btn');
 endingAnchor.classList.add('btn--primary','btn--medium');
@@ -23,5 +23,5 @@ endingAnchor.setAttribute('data-description','enquire-about-a-startrack-account'
 
 
 containerDiv.appendChild(endingAnchor);
-endingAnchor.innerHTML = document.querySelector('.dx-cta > div > div > p')
+endingAnchor.appendChild(document.querySelector('.dx-cta > div > div > p');
 //endingAnchor.appendChild(document.querySelectorAll('.dx-cta > div > div > p')[0].innerText);
