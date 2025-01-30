@@ -1,18 +1,20 @@
 //Getting main Div container
 var mainDiv = document.querySelector('.dx-card');
+var container = document.createElement('div');
 //adding classNames to main Div
-mainDiv.classList.add('lyt-container');
- 
+container.setAttribute('class','lyt-container');
+ mainDiv.appendChild(container);
+
 //creating section element
 var sectionElem = document.createElement('section');
 //adding Id to section
 sectionElem.setAttribute('class','layout-container');
 //adding classNames to section
 sectionElem.classList.add('clearfix','bg-color--shell','no-padding--bottom');
-mainDiv.appendChild(sectionElem);
+container.appendChild(sectionElem);
  
 //creating div
-var containerDiv = document.createElement('div');
+c
 //adding class to container Div
 containerDiv.setAttribute('class','layout-container-wrapper');  
 sectionElem.appendChild(containerDiv);
@@ -144,3 +146,11 @@ containerTwoInsideDivUL.appendChild(containerTwoInsideDivLiFourValue);
 var containerTwoInsideDivLiFiveValue = document.querySelector('.dx-card > div > div > ul > li');
 //containerTwoInsideDivUL.appendChild(containerTwoInsideDivLiFive);
 containerTwoInsideDivUL.appendChild(containerTwoInsideDivLiFiveValue);
+
+//-------------------------------------------------------------------
+
+// //creating div
+// var containerDivCard = document.createElement('lyt-container');
+// //adding class to container Div
+// containerDivCard.setAttribute('class','layout-container-wrapper');  
+// sectionElem.appendChild(containerDivCard);
