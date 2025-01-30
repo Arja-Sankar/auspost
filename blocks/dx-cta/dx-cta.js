@@ -21,4 +21,5 @@ endingAnchor.setAttribute('data-category','|btn');
 endingAnchor.setAttribute('data-description','enquire-about-a-startrack-account');
 //var insightContentOne = document.querySelector('.dx-cta-wrapper > .dx-cta > div > div > p');
 //endingAnchor.appendChild(insightContentOne);
+endingAnchor.innerHTML = document.querySelectorAll('.dx-cta > div > div > p')[0].innerText
 containerDiv.appendChild(endingAnchor);
