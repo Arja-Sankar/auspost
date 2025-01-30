@@ -80,7 +80,7 @@ containerTwoInsideDivTwo.appendChild(containerTwoInsideDivThree);
 //Creating Inside div four para container two with value
 var containerTwoInsideDivFour = document.createElement('p');
 containerTwoInsideDivThree.appendChild(containerTwoInsideDivFour);
-var containerTwoInsideDivFourValue = document.querySelector('.dx-card > div > div > p'),innerHTML;
+var containerTwoInsideDivFourValue = document.querySelector('.dx-card > div > div > p');
 containerTwoInsideDivFour.appendChild(containerTwoInsideDivFourValue);
 // containerTwoInsideDivFour.innerHTML = containerTwoInsideDivFourValue;
 
@@ -99,7 +99,7 @@ containerTwoInsideDivFive.appendChild(containerTwoInsideDivSix);
 
 //Creating Inside div seven para container two with value
 var containerTwoInsideDivSeven = document.createElement('p');
-var containerTwoInsideDivSevenValue = document.querySelector('.dx-card > div > div > p'),innerHTML;
+var containerTwoInsideDivSevenValue = document.querySelector('.dx-card > div > div > p');
 containerTwoInsideDivSix.appendChild(containerTwoInsideDivSeven);
 containerTwoInsideDivSeven.appendChild(containerTwoInsideDivSevenValue);
 
@@ -111,34 +111,34 @@ containerTwoInsideDivSix.appendChild(containerTwoInsideDivUL);
 var containerTwoInsideDivLi = document.createElement('li');
 var containerTwoInsideDivLiValue = document.querySelector('.dx-card > div > div > ul > li');
 containerTwoInsideDivUL.appendChild(containerTwoInsideDivLi);
-containerTwoInsideDivLi.innerHTML = containerTwoInsideDivLiValue;
+containerTwoInsideDivLi.appendChild(containerTwoInsideDivLiValue);
 
 //Creating Inside div ten li Two container two
 var containerTwoInsideDivLiOne = document.createElement('li');
 var containerTwoInsideDivLiOneValue = document.querySelector('.dx-card > div > div > ul > li');
 containerTwoInsideDivUL.appendChild(containerTwoInsideDivLiOne);
-containerTwoInsideDivLiOne.innerHTML = containerTwoInsideDivLiOneValue;
+containerTwoInsideDivLiOne.appendChild(containerTwoInsideDivLiOneValue);
 
 //Creating Inside div elven li Three container two
 var containerTwoInsideDivLiTwo = document.createElement('li');
 var containerTwoInsideDivLiTwoValue = document.querySelector('.dx-card > div > div > ul > li');
 containerTwoInsideDivUL.appendChild(containerTwoInsideDivLiTwo);
-containerTwoInsideDivLiTwo.innerHTML = containerTwoInsideDivLiTwoValue;
+containerTwoInsideDivLiTwo.appendChild(containerTwoInsideDivLiTwoValue);
 
 //Creating Inside div twelve li four container two
 var containerTwoInsideDivLiThree = document.createElement('li');
 var containerTwoInsideDivLiThreeValue = document.querySelector('.dx-card > div > div > ul > li');
 containerTwoInsideDivUL.appendChild(containerTwoInsideDivLiThree);
-containerTwoInsideDivLiThree.innerHTML = containerTwoInsideDivLiThreeValue;
+containerTwoInsideDivLiThree.appendChild(containerTwoInsideDivLiThreeValue);
 
 //Creating Inside div thirteen li five container two
 var containerTwoInsideDivLiFour = document.createElement('li');
 var containerTwoInsideDivLiFourValue = document.querySelector('.dx-card > div > div > ul > li');
 containerTwoInsideDivUL.appendChild(containerTwoInsideDivLiFour);
-containerTwoInsideDivLiFour.innerHTML = containerTwoInsideDivLiFourValue;
+containerTwoInsideDivLiFour.appendChild(containerTwoInsideDivLiFourValue);
 
 //Creating Inside div fourteen li six container two
 var containerTwoInsideDivLiFive = document.createElement('li');
 var containerTwoInsideDivLiFiveValue = document.querySelector('.dx-card > div > div > ul > li');
 containerTwoInsideDivUL.appendChild(containerTwoInsideDivLiFive);
-containerTwoInsideDivLiFive.innerHTML = containerTwoInsideDivLiFiveValue;
+containerTwoInsideDivLiFive.appendChild(containerTwoInsideDivLiFiveValue);
