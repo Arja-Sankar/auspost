@@ -47,7 +47,7 @@ articleElem.appendChild(containerInsideDivthree);
 var containerInsideDivfour = document.createElement('div');
 //adding class
 containerInsideDivfour.setAttribute('class','adpimg__container');
-containerInsideDiv.classList.add('adpimg__display--fluid', 'adpimg__obj-fit', 'js-object-fit', 'adpimg__obj-fit--h75-v50');
+containerInsideDivfour.classList.add('adpimg__display--fluid', 'adpimg__obj-fit', 'js-object-fit', 'adpimg__obj-fit--h75-v50');
 containerInsideDivthree.appendChild(containerInsideDivfour);
 
 var pict = document.querySelector('.dx-card > div > div > picture');
