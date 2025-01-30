@@ -55,7 +55,7 @@ containerInsideDivthree.appendChild(containerInsideDivfour);
 var pict = document.querySelector('.dx-card > div > div > picture');
 containerInsideDivfour.appendChild(pict);
 
-document.querySelector('.tile-image > .adpimg__obj-fit--h25-v75 > picture > img').setAttribute('class', 'adpimg__img')
+document.querySelector('.dx-card > div > div > picture > img').setAttribute('class', 'adpimg__img')
 
 //creating div container two
 var containerDivTwo = document.createElement('div');
@@ -209,7 +209,7 @@ containerDivCardFour.appendChild(containerDivCardFive);
 var pictureOne = document.querySelector('.dx-card > div > div > picture');
 containerDivCardFive.appendChild(pictureOne);
 
-document.querySelector('.dx-card > div > div > picture > img').setAttribute('class', 'adpimg__img');
+document.querySelector('.tile-image > .adpimg__obj-fit--h25-v75 > picture > img').setAttribute('class', 'adpimg__img');
 
 //creating div container two
 var containerDivCardSix = document.createElement('div');
