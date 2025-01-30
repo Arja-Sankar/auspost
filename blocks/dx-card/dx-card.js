@@ -273,14 +273,122 @@ containerUL.appendChild(containerLITwo);
 var containerLIThree = document.querySelector('.dx-card > div > div > ul > li');
 containerUL.appendChild(containerLIThree);
 
-//Creating Inside div nine li container two
+//Creating Inside div nine li container six
 var containerLIFour = document.querySelector('.dx-card > div > div > ul > li');
-containerLIFour.appendChild(containerLI);
+containerUL.appendChild(containerLI);
 
-//Creating Inside div nine li container two
+//Creating Inside div nine li container seven
 var containerLIFive = document.querySelector('.dx-card > div > div > ul > li');
 containerUL.appendChild(containerLIFive);
 
-//Creating Inside div nine li container two
+//Creating Inside div nine li container eight
 var containerLISix = document.querySelector('.dx-card > div > div > ul > li');
 containerUL.appendChild(containerLISix);
+
+//-------------------------------------------------------
+
+
+//Creating Inside div two
+var containerDivCardtwoThree = document.createElement('div');
+//adding class
+containerDivCardtwoThree.setAttribute('class','card');  
+containerDivCardTwo.appendChild(containerDivCardtwoThree);
+
+//creating article
+var articleElemOnee = document.createElement('article');
+//adding class to article
+articleElemOnee.setAttribute('class','tile');
+articleElemOnee.classList.add('tile--featured','tile--card','bg-color','tile--image-right','tile--simulate-links');
+containerDivCardtwoThree.appendChild(articleElemOnee);
+
+//Creating Inside div three
+var containerDivCardtwoFour = document.createElement('div');
+//adding class
+containerDivCardtwoFour.setAttribute('class','tile-image');  
+articleElemOnee.appendChild(containerDivCardtwoFour);
+
+//Creating Inside div four
+var containerDivCardtwoFive = document.createElement('div');
+//adding class
+containerDivCardtwoFive.setAttribute('class','adpimg__container');
+containerDivCardtwoFive.classList.add('adpimg__display--fluid','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h75-v50','tester__addon');
+containerDivCardtwoFour.appendChild(containerDivCardtwoFive);
+
+var pictureOnee = document.querySelector('.dx-card > div > div > picture');
+containerDivCardtwoFive.appendChild(pictureOnee);
+
+document.querySelector('.tile-image > .tester__addon > picture > img').setAttribute('class', 'adpimg__img');
+
+//creating div container two
+var containerDivCardtwoSix = document.createElement('div');
+//adding class to container Div
+containerDivCardtwoSix.setAttribute('class','tile-content');  
+articleElemOnee.appendChild(containerDivCardtwoSix);
+
+//Creating Inside div container two
+var containerDivCardtwoSeven = document.createElement('div');
+//adding class
+containerDivCardtwoSeven.setAttribute('class','tile-content-copy');
+containerDivCardtwoSix.appendChild(containerDivCardtwoSeven);
+
+//Creating Inside two div container two
+var containerDivCardtwoeight = document.createElement('h4');
+//adding class
+containerDivCardtwoeight.setAttribute('class','tile-title');
+containerDivCardtwoSeven.appendChild(containerDivCardtwoeight);
+
+//Creating Inside three div container two
+var containerDivCardtwoNine = document.createElement('div');
+//adding class
+containerDivCardtwoNine.setAttribute('class','rte-wrapper');
+containerDivCardtwoeight.appendChild(containerDivCardtwoNine);
+
+//Creating Inside div four para container two with value
+var containerDivCardtwoTenValue = document.querySelector('.dx-card > div > div > p');
+containerDivCardtwoNine.appendChild(containerDivCardtwoTenValue);
+
+//Creating Inside five div container two
+var containerTwoInsideDivtwoEleven = document.createElement('div');
+//adding class
+containerTwoInsideDivtwoEleven.setAttribute('class','tile-copy');
+containerDivCardtwoSeven.appendChild(containerTwoInsideDivtwoEleven);
+
+//Creating Inside six div container two
+var containerTwoInsideDivtwoTwelve = document.createElement('div');
+//adding class
+containerTwoInsideDivtwoTwelve.setAttribute('class','rte-wrapper');
+containerTwoInsideDivtwoTwelve.classList.add('cmp-text');
+containerTwoInsideDivtwoEleven.appendChild(containerTwoInsideDivtwoTwelve);
+
+
+//Creating Inside div eight ul container two
+var containertwoUL = document.createElement('ul');
+containerTwoInsideDivtwoTwelve.appendChild(containertwoUL);
+
+//Creating Inside div nine li container two
+var containertwoLI = document.querySelector('.dx-card > div > div > ul > li');
+containertwoUL.appendChild(containertwoLI);
+
+//Creating Inside div nine li container three
+var containerLItwoOne = document.querySelector('.dx-card > div > div > ul > li');
+containertwoUL.appendChild(containerLItwoOne);
+
+//Creating Inside div nine li container four
+var containerLItwoTwo = document.querySelector('.dx-card > div > div > ul > li');
+containertwoUL.appendChild(containerLItwoTwo);
+
+//Creating Inside div nine li container five
+var containerLItwoThree = document.querySelector('.dx-card > div > div > ul > li');
+containertwoUL.appendChild(containerLItwoThree);
+
+//Creating Inside div nine li container six
+var containerLItwoFour = document.querySelector('.dx-card > div > div > ul > li');
+containertwoUL.appendChild(containerLItwoFour);
+
+//Creating Inside div nine li container seven
+var containerLItwoFive = document.querySelector('.dx-card > div > div > ul > li');
+containertwoUL.appendChild(containerLItwoFive);
+
+//Creating Inside div nine li container eight
+var containerLItwoSix = document.querySelector('.dx-card > div > div > ul > li');
+containertwoUL.appendChild(containerLItwoSix);
