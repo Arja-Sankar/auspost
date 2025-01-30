@@ -400,9 +400,14 @@ containertwoUL.appendChild(containerLItwoSix);
 //-------------------------------------------------------
 
 //Getting main Div container
-var mainDivone = document.createElement('div');
-mainDivone.setAttribute('class','cta');
-containerDivCardTwo.appendChild(mainDivone);
+var containerDivCardthreeThree = document.createElement('div');
+//adding class
+containerDivCardthreeThree.setAttribute('class','cta');  
+containerDivCardTwo.appendChild(containerDivCardthreeThree);
+
+// var mainDivone = document.createElement('div');
+// mainDivone.setAttribute('class','cta');
+// containerDivCardTwo.appendChild(mainDivone);
 // //creating div
 // var containerDivv = document.createElement('div');
 // //adding class to container Div
