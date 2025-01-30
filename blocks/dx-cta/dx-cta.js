@@ -1,6 +1,6 @@
 //Getting main Div container
 var mainDiv = document.querySelector('.dx-cta');
-
+mainDiv.classList.add('cta');
 //creating div
 var containerDiv = document.createElement('div');
 //adding class to container Div
