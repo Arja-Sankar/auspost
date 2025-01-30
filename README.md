@@ -1,5 +1,5 @@
-# Your Project's Title...
-Your project's description...
+# Aus Post
+Aus Post Franklin demo
 
 ## Environments
 - Preview: https://main--{repo}--{owner}.aem.page/
