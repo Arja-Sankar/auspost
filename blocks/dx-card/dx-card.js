@@ -203,7 +203,7 @@ articleElemOne.appendChild(containerDivCardFour);
 var containerDivCardFive = document.createElement('div');
 //adding class
 containerDivCardFive.setAttribute('class','adpimg__container');
-containerDivCardFive.classList.add('adpimg__display--fluid','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h25-v75');
+containerDivCardFive.classList.add('adpimg__display--fluid','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h75-v50');
 containerDivCardFour.appendChild(containerDivCardFive);
 
 var pictureOne = document.querySelector('.dx-card > div > div > picture');
