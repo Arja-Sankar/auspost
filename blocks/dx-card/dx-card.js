@@ -206,16 +206,16 @@ containerDivCardFive.setAttribute('class','adpimg__container');
 containerDivCardFive.classList.add('adpimg__display--fluid','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h25-v75');
 containerDivCardFour.appendChild(containerDivCardFive);
 
-// var pictureOne = document.querySelector('.dx-card > div > div > picture');
-// containerDivCardFive.appendChild(pictureOne);
+var pictureOne = document.querySelector('.dx-card > div > div > picture');
+containerDivCardFive.appendChild(pictureOne);
 
-// document.querySelector('.tile-image > .adpimg__container > picture > img').setAttribute('class', 'adpimg__img');
+document.querySelector('.dx-card > div > div > picture > img').setAttribute('class', 'adpimg__img');
 
-// //creating div container two
-// var containerDivCardSix = document.createElement('div');
-// //adding class to container Div
-// containerDivCardSix.setAttribute('class','tile-content');  
-// articleElemOne.appendChild(containerDivCardSix);
+//creating div container two
+var containerDivCardSix = document.createElement('div');
+//adding class to container Div
+containerDivCardSix.setAttribute('class','tile-content');  
+articleElemOne.appendChild(containerDivCardSix);
 
 // //Creating Inside div container two
 // var containerDivCardSeven = document.createElement('div');
