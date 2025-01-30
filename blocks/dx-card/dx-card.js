@@ -149,11 +149,16 @@ containerTwoInsideDivUL.appendChild(containerTwoInsideDivLiFiveValue);
 
 //-------------------------------------------------------------------
 
+var containerDivCardprev = document.createElement('div');
+containerDivCardprev.setAttribute('class','lyt-container');
+mainDiv.appendChild(containerDivCardprev);
+
+containerDivCard.setAttribute('class','layout-container-wrapper');
 //creating div
 var containerDivCard = document.createElement('div');
 //adding class to container Div
 containerDivCard.setAttribute('class','layout-container-wrapper');  
-mainDiv.appendChild(containerDivCard);
+containerDivCardprev.appendChild(containerDivCard);
 
 //creating section element
 var sectionCard = document.createElement('section');
