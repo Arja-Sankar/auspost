@@ -113,7 +113,7 @@ containerTwoInsideDivSix.appendChild(containerTwoInsideDivUL);
 
 //Creating Inside div nine li container two
 //var containerTwoInsideDivLi = document.createElement('li');
-var containerTwoInsideDivLiValue = document.querySelector('.dx-card > div > div > ul > li');
+var containerTwoInsideDivLiValue = document.querySelectorAll('.dx-card > div > div > ul > li')[0];
 //containerTwoInsideDivUL.appendChild(containerTwoInsideDivLi);
 containerTwoInsideDivUL.appendChild(containerTwoInsideDivLiValue);
 
@@ -146,5 +146,3 @@ containerTwoInsideDivUL.appendChild(containerTwoInsideDivLiFourValue);
 var containerTwoInsideDivLiFiveValue = document.querySelector('.dx-card > div > div > ul > li');
 //containerTwoInsideDivUL.appendChild(containerTwoInsideDivLiFive);
 containerTwoInsideDivUL.appendChild(containerTwoInsideDivLiFiveValue);
-
-//-------------------------------------------------------------------
