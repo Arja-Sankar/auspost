@@ -153,7 +153,6 @@ var containerDivCardprev = document.createElement('div');
 containerDivCardprev.setAttribute('class','lyt-container');
 mainDiv.appendChild(containerDivCardprev);
 
-containerDivCard.setAttribute('class','layout-container-wrapper');
 //creating div
 var containerDivCard = document.createElement('div');
 //adding class to container Div
