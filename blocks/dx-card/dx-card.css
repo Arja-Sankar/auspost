@@ -1,1 +1,8 @@
-
+.adpimg__container{
+    position: absolute;
+    left: 50%;
+}
+.tile-copy{
+    position: relative;
+    width: 50%;
+}
