@@ -14,7 +14,7 @@ sectionElem.classList.add('clearfix','bg-color--shell','no-padding--bottom');
 container.appendChild(sectionElem);
  
 //creating div
-c
+var containerDiv = document.createElement('div');
 //adding class to container Div
 containerDiv.setAttribute('class','layout-container-wrapper');  
 sectionElem.appendChild(containerDiv);
