@@ -55,7 +55,7 @@ containerInsideDivthree.appendChild(containerInsideDivfour);
 var pict = document.querySelector('.dx-card > div > div > picture');
 containerInsideDivfour.appendChild(pict);
 
-document.querySelector('.adpimg__obj-fit--h25-v75 > div > div > picture > img').setAttribute('class', 'adpimg__img')
+document.querySelector('.adpimg__obj-fit--h25-v75 > picture > img').setAttribute('class', 'adpimg__img')
 
 //creating div container two
 var containerDivTwo = document.createElement('div');
