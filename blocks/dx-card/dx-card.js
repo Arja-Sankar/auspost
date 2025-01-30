@@ -159,52 +159,52 @@ var containerDivCard = document.createElement('div');
 containerDivCard.setAttribute('class','layout-container-wrapper');  
 containerDivCardprev.appendChild(containerDivCard);
 
-// //creating section element
-// var sectionCard = document.createElement('section');
-// //adding Id to section
-// sectionCard.setAttribute('class','layout-container');
-// //adding classNames to section
-// sectionCard.classList.add('clearfix','bg-color--shell','no-padding');
-// containerDivCard.appendChild(sectionCard);
+//creating section element
+var sectionCard = document.createElement('section');
+//adding Id to section
+sectionCard.setAttribute('class','layout-container');
+//adding classNames to section
+sectionCard.classList.add('clearfix','bg-color--shell','no-padding');
+containerDivCard.appendChild(sectionCard);
 
-// //creating div
-// var containerDivCardOne = document.createElement('div');
-// //adding class to container Div
-// containerDivCardOne.setAttribute('class','layout-container-wrapper');  
-// sectionCard.appendChild(containerDivCardOne);
+//creating div
+var containerDivCardOne = document.createElement('div');
+//adding class to container Div
+containerDivCardOne.setAttribute('class','layout-container-wrapper');  
+sectionCard.appendChild(containerDivCardOne);
 
-// //Creating Inside div one
-// var containerDivCardTwo = document.createElement('div');
-// //adding class
-// containerDivCardTwo.setAttribute('class','flex-container');
-// containerDivCardTwo.classList.add('flex-container--single-row','flex-container--center');
-// containerDivCardOne.appendChild(containerDivCardTwo);
+//Creating Inside div one
+var containerDivCardTwo = document.createElement('div');
+//adding class
+containerDivCardTwo.setAttribute('class','flex-container');
+containerDivCardTwo.classList.add('flex-container--single-row','flex-container--center');
+containerDivCardOne.appendChild(containerDivCardTwo);
 
-// //Creating Inside div two
-// var containerDivCardThree = document.createElement('div');
-// //adding class
-// containerDivCardThree.setAttribute('class','card');  
-// containerDivCardTwo.appendChild(containerDivCardThree);
+//Creating Inside div two
+var containerDivCardThree = document.createElement('div');
+//adding class
+containerDivCardThree.setAttribute('class','card');  
+containerDivCardTwo.appendChild(containerDivCardThree);
 
-// //creating article
-// var articleElemOne = document.createElement('article');
-// //adding class to article
-// articleElemOne.setAttribute('class','tile');
-// articleElemOne.classList.add('tile--featured','tile--card','bg-color','tile--image-right','tile--simulate-links');
-// containerDivCardThree.appendChild(articleElemOne);
+//creating article
+var articleElemOne = document.createElement('article');
+//adding class to article
+articleElemOne.setAttribute('class','tile');
+articleElemOne.classList.add('tile--featured','tile--card','bg-color','tile--image-right','tile--simulate-links');
+containerDivCardThree.appendChild(articleElemOne);
 
-// //Creating Inside div three
-// var containerDivCardFour = document.createElement('div');
-// //adding class
-// containerDivCardFour.setAttribute('class','tile-image');  
-// articleElemOne.appendChild(containerDivCardFour);
+//Creating Inside div three
+var containerDivCardFour = document.createElement('div');
+//adding class
+containerDivCardFour.setAttribute('class','tile-image');  
+articleElemOne.appendChild(containerDivCardFour);
 
-// //Creating Inside div four
-// var containerDivCardFive = document.createElement('div');
-// //adding class
-// containerDivCardFive.setAttribute('class','adpimg__container');
-// containerDivCardFive.classList.add('adpimg__display--fluid','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h25-v75');
-// containerDivCardFour.appendChild(containerDivCardFive);
+//Creating Inside div four
+var containerDivCardFive = document.createElement('div');
+//adding class
+containerDivCardFive.setAttribute('class','adpimg__container');
+containerDivCardFive.classList.add('adpimg__display--fluid','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h25-v75');
+containerDivCardFour.appendChild(containerDivCardFive);
 
 // var pictureOne = document.querySelector('.dx-card > div > div > picture');
 // containerDivCardFive.appendChild(pictureOne);
