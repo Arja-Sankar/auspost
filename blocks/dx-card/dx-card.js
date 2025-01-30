@@ -360,6 +360,10 @@ containerTwoInsideDivtwoTwelve.setAttribute('class','rte-wrapper');
 containerTwoInsideDivtwoTwelve.classList.add('cmp-text');
 containerTwoInsideDivtwoEleven.appendChild(containerTwoInsideDivtwoTwelve);
 
+//Creating Inside div seven para container two with value
+
+var containerTwoInsideDivtwoSevenValue = document.querySelector('.dx-card > div > div > p');
+containerTwoInsideDivtwoTwelve.appendChild(containerTwoInsideDivtwoSevenValue);
 
 //Creating Inside div eight ul container two
 var containertwoUL = document.createElement('ul');
