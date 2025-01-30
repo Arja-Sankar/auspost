@@ -149,15 +149,15 @@ containerTwoInsideDivUL.appendChild(containerTwoInsideDivLiFiveValue);
 
 //-------------------------------------------------------------------
 
-var containerDivCardprev = document.createElement('div');
-containerDivCardprev.setAttribute('class','lyt-container');
-mainDiv.appendChild(containerDivCardprev);
+// var containerDivCardprev = document.createElement('div');
+// containerDivCardprev.setAttribute('class','lyt-container');
+// mainDiv.appendChild(containerDivCardprev);
 
 //creating div
 var containerDivCard = document.createElement('div');
 //adding class to container Div
-containerDivCard.setAttribute('class','layout-container-wrapper');  
-containerDivCardprev.appendChild(containerDivCard);
+containerDivCard.setAttribute('class','lyt-container');  
+mainDiv.appendChild(containerDivCard);
 
 //creating section element
 var sectionCard = document.createElement('section');
