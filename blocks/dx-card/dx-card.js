@@ -49,13 +49,13 @@ articleElem.appendChild(containerInsideDivthree);
 var containerInsideDivfour = document.createElement('div');
 //adding class
 containerInsideDivfour.setAttribute('class','adpimg__container');
-containerInsideDivfour.classList.add('adpimg__display--fluid', 'adpimg__obj-fit', 'js-object-fit', 'adpimg__obj-fit--h75-v50');
+containerInsideDivfour.classList.add('adpimg__display--fluid', 'adpimg__obj-fit', 'js-object-fit', 'adpimg__obj-fit--h25-v75');
 containerInsideDivthree.appendChild(containerInsideDivfour);
 
 var pict = document.querySelector('.dx-card > div > div > picture');
 containerInsideDivfour.appendChild(pict);
 
-document.querySelector('.tile-image > .adpimg__container > picture > img').setAttribute('class', 'adpimg__img')
+document.querySelector('.tile-image > .adpimg__obj-fit--h25-v75 > picture > img').setAttribute('class', 'adpimg__img')
 
 //creating div container two
 var containerDivTwo = document.createElement('div');
