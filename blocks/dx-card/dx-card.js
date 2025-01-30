@@ -1,8 +1,7 @@
 //Getting main Div container
-var mainDiv = document.querySelector('.dx-card-wrapper');
+var mainDiv = document.querySelector('.dx-card');
 //adding classNames to main Div
 mainDiv.classList.add('lyt-container');
-var mainClassHeading =  document.querySelectorAll('.dx-text-block > div')[0].innerText;
  
 //creating section element
 var sectionElem = document.createElement('section');
