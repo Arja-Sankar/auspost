@@ -57,35 +57,49 @@ containerInsideDivvfour.appendChild(pictu);
 
 document.querySelector('.card-1-tester > picture > img').setAttribute('class', 'adpimg__img');
 
-// //creating div container two
-// var containerDivTwo = document.createElement('div');
-// //adding class to container Div
-// containerDivTwo.setAttribute('class','tile-content');  
-// articleElem.appendChild(containerDivTwo);
+//creating div container two
+var containerDivvTwo = document.createElement('div');
+//adding class to container Div
+containerDivvTwo.setAttribute('class','tile-content');  
+articleElemen.appendChild(containerDivvTwo);
 
-// //Creating Inside div container two
-// var containerTwoInsideDiv = document.createElement('div');
-// //adding class
-// containerTwoInsideDiv.setAttribute('class','tile-content-copy');
-// containerDivTwo.appendChild(containerTwoInsideDiv);
+//Creating Inside div container two
+var containerTwoInsideDivv = document.createElement('div');
+//adding class
+containerTwoInsideDivv.setAttribute('class','tile-content-copy');
+containerDivvTwo.appendChild(containerTwoInsideDivv);
 
-// //Creating Inside two div container two
-// var containerTwoInsideDivTwo = document.createElement('h4');
-// //adding class
-// containerTwoInsideDivTwo.setAttribute('class','tile-title');
-// containerTwoInsideDiv.appendChild(containerTwoInsideDivTwo);
+//Creating Inside two div container two
+var containerTwoInsideDivvTwo = document.createElement('h4');
+//adding class
+containerTwoInsideDivvTwo.setAttribute('class','tile-title');
+containerTwoInsideDivv.appendChild(containerTwoInsideDivvTwo);
 
-// //Creating Inside three div container two
-// var containerTwoInsideDivThree = document.createElement('div');
-// //adding class
-// containerTwoInsideDivThree.setAttribute('class','rte-wrapper');
-// containerTwoInsideDivTwo.appendChild(containerTwoInsideDivThree);
+//Creating Inside three div container two
+var containerTwoInsideDivvThree = document.createElement('div');
+//adding class
+containerTwoInsideDivvThree.setAttribute('class','rte-wrapper');
+containerTwoInsideDivvTwo.appendChild(containerTwoInsideDivvThree);
 
-// //Creating Inside div four para container two with value
-// // var containerTwoInsideDivFour = document.createElement('p');
-// // containerTwoInsideDivThree.appendChild(containerTwoInsideDivFour);
-// var containerTwoInsideDivFourValue = document.querySelector('.dx-card > div > div > p');
-// containerTwoInsideDivThree.appendChild(containerTwoInsideDivFourValue);
-// // containerTwoInsideDivFour.innerHTML = containerTwoInsideDivFourValue;
+//Creating Inside div four para container two with value
+var containerTwoInsideDivvFourValue = document.querySelector('.dx-text-media > div > div > p');
+containerTwoInsideDivvThree.appendChild(containerTwoInsideDivvFourValue);
 
+//Creating Inside five div container two
+var containerTwoInsideDivvFive = document.createElement('div');
+//adding class
+containerTwoInsideDivvFive.setAttribute('class','tile-copy');
+containerTwoInsideDivv.appendChild(containerTwoInsideDivvFive);
 
+//Creating Inside six div container two
+var containerTwoInsideDivvSix = document.createElement('div');
+//adding class
+containerTwoInsideDivvSix.setAttribute('class','rte-wrapper');
+containerTwoInsideDivvSix.classList.add('cmp-text');
+containerTwoInsideDivvFive.appendChild(containerTwoInsideDivvSix);
+
+//Creating Inside div seven para container two with value
+//var containerTwoInsideDivvSeven = document.createElement('p');
+var containerTwoInsideDivvSevenValue = document.querySelector('.dx-text-media > div > div > p');
+//containerTwoInsideDivvSix.appendChild(containerTwoInsideDivvSeven);
+containerTwoInsideDivvSix.appendChild(containerTwoInsideDivvSevenValue);
