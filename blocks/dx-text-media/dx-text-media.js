@@ -110,10 +110,11 @@ containerEightDivv.classList.add('cta-wrapper--row','cta-wrapper--left');
 containerDivvTwo.appendChild(containerEightDivv);
 
 var anchorNew = document.createElement('a');
-var anchorValue = document.querySelector('.dx-text-media > div > div > p')
+var anchorValue =  document.querySelector('.dx-text-media > div > div > p').innerText;
+var anchorLink =  document.querySelectorAll('.dx-text-media > div > div')[2].innerText;
 anchorNew.setAttribute('id','cta-1-628236-624912');
 anchorNew.setAttribute('class','link-chevron');
-anchorNew.setAttribute('href','');
+anchorNew.setAttribute('href',anchorLink);
 anchorNew.setAttribute('title',anchorValue);
 anchorNew.setAttribute('data-event','site interaction');
 anchorNew.setAttribute('data-category','card|freight-services|li');
