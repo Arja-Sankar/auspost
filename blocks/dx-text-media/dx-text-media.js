@@ -55,5 +55,5 @@ containerInsideDivthree.appendChild(containerInsideDivfour);
 var pict = document.querySelector('.dx-text-media > div > div > picture');
 containerInsideDivfour.appendChild(pict);
 
-document.querySelector('.dx-text-media > div > div > picture > img').setAttribute('class', 'adpimg__img');
+document.querySelector('.adpimg__obj-fit--h50-v50 > div > div > picture > img').setAttribute('class', 'adpimg__img');
 
