@@ -57,3 +57,35 @@ containerInsideDivfour.appendChild(pict);
 
 document.querySelector('.adpimg__obj-fit--h50-v50 > picture > img').setAttribute('class', 'adpimg__img');
 
+//creating div container two
+var containerDivTwo = document.createElement('div');
+//adding class to container Div
+containerDivTwo.setAttribute('class','tile-content');  
+articleElem.appendChild(containerDivTwo);
+
+//Creating Inside div container two
+var containerTwoInsideDiv = document.createElement('div');
+//adding class
+containerTwoInsideDiv.setAttribute('class','tile-content-copy');
+containerDivTwo.appendChild(containerTwoInsideDiv);
+
+//Creating Inside two div container two
+var containerTwoInsideDivTwo = document.createElement('h4');
+//adding class
+containerTwoInsideDivTwo.setAttribute('class','tile-title');
+containerTwoInsideDiv.appendChild(containerTwoInsideDivTwo);
+
+//Creating Inside three div container two
+var containerTwoInsideDivThree = document.createElement('div');
+//adding class
+containerTwoInsideDivThree.setAttribute('class','rte-wrapper');
+containerTwoInsideDivTwo.appendChild(containerTwoInsideDivThree);
+
+//Creating Inside div four para container two with value
+// var containerTwoInsideDivFour = document.createElement('p');
+// containerTwoInsideDivThree.appendChild(containerTwoInsideDivFour);
+var containerTwoInsideDivFourValue = document.querySelector('.dx-card > div > div > p');
+containerTwoInsideDivThree.appendChild(containerTwoInsideDivFourValue);
+// containerTwoInsideDivFour.innerHTML = containerTwoInsideDivFourValue;
+
+
