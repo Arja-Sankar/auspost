@@ -121,4 +121,4 @@ anchorNew.setAttribute('data-category','card|freight-services|li');
 anchorNew.setAttribute('data-description','learn-more');
 anchorNew.setAttribute('aria-labelledby','cta-1-628236-624912 card-title-id-0');
 containerEightDivv.appendChild(anchorNew);
-anchorNew.appendChild(anchorValue);
+anchorNew.innerHTML = anchorValue;
