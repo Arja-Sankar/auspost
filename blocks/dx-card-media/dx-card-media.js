@@ -230,7 +230,7 @@ containerEightDivvvv.classList.add('cta-wrapper--row','cta-wrapper--left');
 containerDivvTwoo.appendChild(containerEightDivvvv);
 
 var anchorNewOne = document.createElement('a');
-var anchorValueOne = document.querySelectorAll('.dx-card-media > div > div > p')[6].innerText;
+var anchorValueOne = document.querySelectorAll('.dx-card-media > div > div > p > a')[2].textContent;
 var anchorLinkk =  document.querySelectorAll('.dx-card-media > div > div > p > a')[6].href;
 anchorNewOne.setAttribute('id','cta-1-638208-490290');
 anchorNewOne.setAttribute('class','link-chevron');
