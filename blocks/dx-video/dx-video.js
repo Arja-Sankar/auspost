@@ -61,12 +61,11 @@ containerrTwoInsideDivv.appendChild(containerrTwoInsideDivvTwo);
 var containerrTwoInsideDivvThree = document.createElement('div');
 //adding class
 containerrTwoInsideDivvThree.setAttribute('class','rte-wrapper');
-containerrTwoInsideDivvThree.classList.add('cmp-text');
 containerrTwoInsideDivvTwo.appendChild(containerrTwoInsideDivvThree);
 
 //Creating Inside div four para container two with value
 var containerTwoInsideDivvFourValue = document.querySelector('.dx-text-media > div > div > p');
-containerTwoInsideDivvThree.appendChild(containerTwoInsideDivvFourValue);
+containerrTwoInsideDivvThree.appendChild(containerTwoInsideDivvFourValue);
 
 //Creating Inside five div container two
 var containerrTwoInsideDivvFive = document.createElement('div');
