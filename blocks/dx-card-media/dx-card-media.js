@@ -205,45 +205,45 @@ containerTwoInsideDivvTwoo.appendChild(containerTwoInsideDivvThreee);
 var containerTwoInsideDivvvFourValue = document.querySelectorAll('.dx-card-media > div > div > p')[4];
 containerTwoInsideDivvThreee.appendChild(containerTwoInsideDivvvFourValue);
 
-//Creating Inside five div container two
-var containerTwoInsideDivvvFive = document.createElement('div');
-//adding class
-containerTwoInsideDivvvFive.setAttribute('class','tile-copy');
-containerTwoInsideDivvv.appendChild(containerTwoInsideDivvvFive);
+// //Creating Inside five div container two
+// var containerTwoInsideDivvvFive = document.createElement('div');
+// //adding class
+// containerTwoInsideDivvvFive.setAttribute('class','tile-copy');
+// containerTwoInsideDivvv.appendChild(containerTwoInsideDivvvFive);
 
-//Creating Inside six div container two
-var containerTwoInsideDivvSixx = document.createElement('div');
-//adding class
-containerTwoInsideDivvSixx.setAttribute('class','rte-wrapper');
-containerTwoInsideDivvSixx.classList.add('cmp-text');
-containerTwoInsideDivvvFive.appendChild(containerTwoInsideDivvSixx);
+// //Creating Inside six div container two
+// var containerTwoInsideDivvSixx = document.createElement('div');
+// //adding class
+// containerTwoInsideDivvSixx.setAttribute('class','rte-wrapper');
+// containerTwoInsideDivvSixx.classList.add('cmp-text');
+// containerTwoInsideDivvvFive.appendChild(containerTwoInsideDivvSixx);
 
-//Creating Inside div seven para container two with value
-//var containerTwoInsideDivvvSeven = document.createElement('p');
-var containerTwoInsideDivvvSevenValue = document.querySelectorAll('.dx-card-media > div > div > p')[5];
-//containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSeven);
-containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSevenValue);
+// //Creating Inside div seven para container two with value
+// //var containerTwoInsideDivvvSeven = document.createElement('p');
+// var containerTwoInsideDivvvSevenValue = document.querySelectorAll('.dx-card-media > div > div > p')[5];
+// //containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSeven);
+// containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSevenValue);
 
-var containerEightDivvvv = document.createElement('div');
-containerEightDivvvv.setAttribute('class', 'cta-wrapper');
-containerEightDivvvv.classList.add('cta-wrapper--row','cta-wrapper--left');
-containerDivvTwoo.appendChild(containerEightDivvvv);
+// var containerEightDivvvv = document.createElement('div');
+// containerEightDivvvv.setAttribute('class', 'cta-wrapper');
+// containerEightDivvvv.classList.add('cta-wrapper--row','cta-wrapper--left');
+// containerDivvTwoo.appendChild(containerEightDivvvv);
 
-var anchorNewOne = document.createElement('a');
-var anchorValueOne = document.querySelectorAll('.dx-card-media > div > div > p')[6].innerText;
-var anchorLinkk =  document.querySelectorAll('.dx-card-media > div > div > p > a')[6].href;
-anchorNewOne.setAttribute('id','cta-1-638208-490290');
-anchorNewOne.setAttribute('class','link-chevron');
-anchorNewOne.setAttribute('href',anchorLinkk);
-anchorNewOne.setAttribute('title',anchorValueOne);
-anchorNewOne.setAttribute('data-event','site interaction');
-anchorNewOne.setAttribute('data-category','card|packaging-options|li');
-anchorNewOne.setAttribute('data-description','shop-packaging');
-anchorNewOne.setAttribute('aria-labelledby','cta-1-638208-490290 card-title-id-1');
-containerEightDivvvv.appendChild(anchorNewOne);
-anchorNewOne.innerHTML = anchorValueOne;
-document.querySelectorAll('.dx-card-media > div > div')[4].style.display = 'none';
-//document.querySelectorAll('.dx-card-media > div > div > p')[3].style.display = 'none';
+// var anchorNewOne = document.createElement('a');
+// var anchorValueOne = document.querySelectorAll('.dx-card-media > div > div > p')[6].innerText;
+// var anchorLinkk =  document.querySelectorAll('.dx-card-media > div > div > p > a')[6].href;
+// anchorNewOne.setAttribute('id','cta-1-638208-490290');
+// anchorNewOne.setAttribute('class','link-chevron');
+// anchorNewOne.setAttribute('href',anchorLinkk);
+// anchorNewOne.setAttribute('title',anchorValueOne);
+// anchorNewOne.setAttribute('data-event','site interaction');
+// anchorNewOne.setAttribute('data-category','card|packaging-options|li');
+// anchorNewOne.setAttribute('data-description','shop-packaging');
+// anchorNewOne.setAttribute('aria-labelledby','cta-1-638208-490290 card-title-id-1');
+// containerEightDivvvv.appendChild(anchorNewOne);
+// anchorNewOne.innerHTML = anchorValueOne;
+// document.querySelectorAll('.dx-card-media > div > div')[4].style.display = 'none';
+// //document.querySelectorAll('.dx-card-media > div > div > p')[3].style.display = 'none';
 
 //-----------------------------------------------------
 
