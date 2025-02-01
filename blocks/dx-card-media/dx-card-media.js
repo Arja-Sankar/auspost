@@ -380,89 +380,89 @@ containerInsideDivvfour.appendChild(picttu);
 
 document.querySelector('.card-85-tester > picture > img').setAttribute('class', 'adpimg__img');
 
-//creating div container two
-var containerDivvTtwo = document.createElement('div');
-//adding class to container Div
-containerDivvTtwo.setAttribute('class','tile-content');  
-articleElemeen.appendChild(containerDivvTtwo);
+// //creating div container two
+// var containerDivvTtwo = document.createElement('div');
+// //adding class to container Div
+// containerDivvTtwo.setAttribute('class','tile-content');  
+// articleElemeen.appendChild(containerDivvTtwo);
 
-//Creating Inside div container two
-var containerTwoInsideDivv = document.createElement('div');
-//adding class
-containerTwoInsideDivv.setAttribute('class','tile-content-copy');
-containerDivvTwo.appendChild(containerTwoInsideDivv);
+// //Creating Inside div container two
+// var containerTwoInsideDivv = document.createElement('div');
+// //adding class
+// containerTwoInsideDivv.setAttribute('class','tile-content-copy');
+// containerDivvTwo.appendChild(containerTwoInsideDivv);
 
-//Creating Inside two div container two
-var containerTwoInsideDivvTwo = document.createElement('h4');
-//adding class
-containerTwoInsideDivvTwo.setAttribute('class','tile-title');
-containerTwoInsideDivvTwo.setAttribute('id','card-title-id-0');
-containerTwoInsideDivv.appendChild(containerTwoInsideDivvTwo);
+// //Creating Inside two div container two
+// var containerTwoInsideDivvTwo = document.createElement('h4');
+// //adding class
+// containerTwoInsideDivvTwo.setAttribute('class','tile-title');
+// containerTwoInsideDivvTwo.setAttribute('id','card-title-id-0');
+// containerTwoInsideDivv.appendChild(containerTwoInsideDivvTwo);
 
-//Creating Inside three div container two
-var containerTwoInsideDivvThree = document.createElement('div');
-//adding class
-containerTwoInsideDivvThree.setAttribute('class','rte-wrapper');
-containerTwoInsideDivvTwo.appendChild(containerTwoInsideDivvThree);
+// //Creating Inside three div container two
+// var containerTwoInsideDivvThree = document.createElement('div');
+// //adding class
+// containerTwoInsideDivvThree.setAttribute('class','rte-wrapper');
+// containerTwoInsideDivvTwo.appendChild(containerTwoInsideDivvThree);
 
-//Creating Inside div four para container two with value
-var containerTwoInsideDivvFourValue = document.querySelectorAll('.dx-card-media > div > div > p')[8];
-containerTwoInsideDivvThree.appendChild(containerTwoInsideDivvFourValue);
+// //Creating Inside div four para container two with value
+// var containerTwoInsideDivvFourValue = document.querySelectorAll('.dx-card-media > div > div > p')[8];
+// containerTwoInsideDivvThree.appendChild(containerTwoInsideDivvFourValue);
 
-//Creating Inside five div container two
-var containerTwoInsideDivvFive = document.createElement('div');
-//adding class
-containerTwoInsideDivvFive.setAttribute('class','tile-copy');
-containerTwoInsideDivv.appendChild(containerTwoInsideDivvFive);
+// //Creating Inside five div container two
+// var containerTwoInsideDivvFive = document.createElement('div');
+// //adding class
+// containerTwoInsideDivvFive.setAttribute('class','tile-copy');
+// containerTwoInsideDivv.appendChild(containerTwoInsideDivvFive);
 
-//Creating Inside six div container two
-var containerTwoInsideDivvSix = document.createElement('div');
-//adding class
-containerTwoInsideDivvSix.setAttribute('class','rte-wrapper');
-containerTwoInsideDivvSix.classList.add('cmp-text');
-containerTwoInsideDivvFive.appendChild(containerTwoInsideDivvSix);
+// //Creating Inside six div container two
+// var containerTwoInsideDivvSix = document.createElement('div');
+// //adding class
+// containerTwoInsideDivvSix.setAttribute('class','rte-wrapper');
+// containerTwoInsideDivvSix.classList.add('cmp-text');
+// containerTwoInsideDivvFive.appendChild(containerTwoInsideDivvSix);
 
-//Creating Inside div seven para container two with value
-//var containerTwoInsideDivvSeven = document.createElement('p');
-var containerTwoInsideDivvSevenValue = document.querySelectorAll('.dx-card-media > div > div > p')[8];
-//containerTwoInsideDivvSix.appendChild(containerTwoInsideDivvSeven);
-containerTwoInsideDivvSix.appendChild(containerTwoInsideDivvSevenValue);
+// //Creating Inside div seven para container two with value
+// //var containerTwoInsideDivvSeven = document.createElement('p');
+// var containerTwoInsideDivvSevenValue = document.querySelectorAll('.dx-card-media > div > div > p')[8];
+// //containerTwoInsideDivvSix.appendChild(containerTwoInsideDivvSeven);
+// containerTwoInsideDivvSix.appendChild(containerTwoInsideDivvSevenValue);
 
-var containerEightDivvv = document.createElement('div');
-containerEightDivvv.setAttribute('class', 'cta-wrapper');
-containerEightDivvv.classList.add('cta-wrapper--row','cta-wrapper--left');
-containerDivvTwo.appendChild(containerEightDivvv);
+// var containerEightDivvv = document.createElement('div');
+// containerEightDivvv.setAttribute('class', 'cta-wrapper');
+// containerEightDivvv.classList.add('cta-wrapper--row','cta-wrapper--left');
+// containerDivvTwo.appendChild(containerEightDivvv);
 
-var anchorrNew = document.createElement('a');
-var anchorrValue =  document.querySelectorAll('.dx-card-media > div > div > p')[10];
-var anchorrLink =  document.querySelectorAll('.dx-card-media > div > div > p')[12].textContent;
-anchorrNew.setAttribute('id','cta-1-628236-624912');
-anchorrNew.setAttribute('class','link-chevron');
-anchorrNew.setAttribute('href',anchorrLink);
-anchorrNew.setAttribute('title',anchorrValue);
-anchorrNew.setAttribute('data-event','site interaction');
-anchorrNew.setAttribute('data-category','card|freight-services|li');
-anchorrNew.setAttribute('data-description','learn-more');
-anchorrNew.setAttribute('aria-labelledby','cta-1-628236-624912 card-title-id-0');
-containerEightDivvv.appendChild(anchorrNew);
-anchorrNew.innerHTML = anchorrValue;
+// var anchorrNew = document.createElement('a');
+// var anchorrValue =  document.querySelectorAll('.dx-card-media > div > div > p')[10];
+// var anchorrLink =  document.querySelectorAll('.dx-card-media > div > div > p')[12].textContent;
+// anchorrNew.setAttribute('id','cta-1-628236-624912');
+// anchorrNew.setAttribute('class','link-chevron');
+// anchorrNew.setAttribute('href',anchorrLink);
+// anchorrNew.setAttribute('title',anchorrValue);
+// anchorrNew.setAttribute('data-event','site interaction');
+// anchorrNew.setAttribute('data-category','card|freight-services|li');
+// anchorrNew.setAttribute('data-description','learn-more');
+// anchorrNew.setAttribute('aria-labelledby','cta-1-628236-624912 card-title-id-0');
+// containerEightDivvv.appendChild(anchorrNew);
+// anchorrNew.innerHTML = anchorrValue;
 
-//document.querySelectorAll('.dx-card-media > div > div')[2].style.display = 'none';
+// //document.querySelectorAll('.dx-card-media > div > div')[2].style.display = 'none';
 
-var anchorrNeww = document.createElement('a');
-var anchorrValuee = document.querySelectorAll('.dx-card-media > div > div > p')[11];
-var anchorrLinkk =  document.querySelectorAll('.dx-card-media > div > div > p')[13].textContent;
-anchorrNeww.setAttribute('id','cta-2-425472-470346');
-anchorrNeww.setAttribute('class','link-chevron');
-anchorrNeww.setAttribute('href',anchorrLinkk);
-anchorrNeww.setAttribute('title',anchorrValuee);
-anchorrNeww.setAttribute('data-event','site interaction');
-anchorrNeww.setAttribute('data-category','card|same-day|li');
-anchorrNeww.setAttribute('data-description','next-flight');
-anchorrNeww.setAttribute('aria-labelledby','cta-2-425472-470346 card-title-id-0');
-containerEightDivvv.appendChild(anchorrNeww);
-anchorrNeww.innerHTML = anchorrValuee;
-// document.querySelectorAll('.dx-card-media > div > div')[1].style.display = 'none';
-// document.querySelectorAll('.dx-card-media > div > div')[2].style.display = 'none';
-document.querySelectorAll('.dx-card-media > div > div')[10].style.display = 'none';
-document.querySelectorAll('.dx-card-media > div > div')[11].style.display = 'none';
+// var anchorrNeww = document.createElement('a');
+// var anchorrValuee = document.querySelectorAll('.dx-card-media > div > div > p')[11];
+// var anchorrLinkk =  document.querySelectorAll('.dx-card-media > div > div > p')[13].textContent;
+// anchorrNeww.setAttribute('id','cta-2-425472-470346');
+// anchorrNeww.setAttribute('class','link-chevron');
+// anchorrNeww.setAttribute('href',anchorrLinkk);
+// anchorrNeww.setAttribute('title',anchorrValuee);
+// anchorrNeww.setAttribute('data-event','site interaction');
+// anchorrNeww.setAttribute('data-category','card|same-day|li');
+// anchorrNeww.setAttribute('data-description','next-flight');
+// anchorrNeww.setAttribute('aria-labelledby','cta-2-425472-470346 card-title-id-0');
+// containerEightDivvv.appendChild(anchorrNeww);
+// anchorrNeww.innerHTML = anchorrValuee;
+// // document.querySelectorAll('.dx-card-media > div > div')[1].style.display = 'none';
+// // document.querySelectorAll('.dx-card-media > div > div')[2].style.display = 'none';
+// document.querySelectorAll('.dx-card-media > div > div')[10].style.display = 'none';
+// document.querySelectorAll('.dx-card-media > div > div')[11].style.display = 'none';
