@@ -247,102 +247,102 @@ document.querySelectorAll('.dx-card-media > div > div')[5].style.display = 'none
 
 //-----------------------------------------------------
 
-// //Creating Inside div two
-// var containerInsideDivvtwooo = document.createElement('div');
-// //adding class
-// containerInsideDivvtwooo.setAttribute('class','card');  
-// containerInsideDivv.appendChild(containerInsideDivvtwooo);
+//Creating Inside div two
+var containerInsideDivvtwooo = document.createElement('div');
+//adding class
+containerInsideDivvtwooo.setAttribute('class','card');  
+containerInsideDivv.appendChild(containerInsideDivvtwooo);
 
-// //creating article
-// var articleElementdivv = document.createElement('article');
-// //adding class to article
-// articleElementdivv.setAttribute('class','tile');
-// articleElementdivv.classList.add('tile--card','bg-color','tile--simulate-links');
-// containerInsideDivvtwooo.appendChild(articleElementdivv);
+//creating article
+var articleElementdivv = document.createElement('article');
+//adding class to article
+articleElementdivv.setAttribute('class','tile');
+articleElementdivv.classList.add('tile--card','bg-color','tile--simulate-links');
+containerInsideDivvtwooo.appendChild(articleElementdivv);
 
-// //Creating Inside div three
-// var containerInsideDivvthreeee = document.createElement('div');
-// //adding class
-// containerInsideDivvthreeee.setAttribute('class','tile-image');  
-// articleElementdivv.appendChild(containerInsideDivvthreeee);
+//Creating Inside div three
+var containerInsideDivvthreeee = document.createElement('div');
+//adding class
+containerInsideDivvthreeee.setAttribute('class','tile-image');  
+articleElementdivv.appendChild(containerInsideDivvthreeee);
 
-// //Creating Inside div four
-// var containerInsideDivvfourrr = document.createElement('div');
-// //adding class
-// containerInsideDivvfourrr.setAttribute('class','adpimg__container');
-// containerInsideDivvfourrr.classList.add('adpimg__display--rectangle','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h50-v50','card-3-tester');
-// containerInsideDivvthreeee.appendChild(containerInsideDivvfourrr);
+//Creating Inside div four
+var containerInsideDivvfourrr = document.createElement('div');
+//adding class
+containerInsideDivvfourrr.setAttribute('class','adpimg__container');
+containerInsideDivvfourrr.classList.add('adpimg__display--rectangle','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h50-v50','card-3-tester');
+containerInsideDivvthreeee.appendChild(containerInsideDivvfourrr);
 
-// var pictuuu = document.querySelector('.dx-card-media > div > div > picture');
-// containerInsideDivvfourrr.appendChild(pictuuu);
+var pictuuu = document.querySelector('.dx-card-media > div > div > picture');
+containerInsideDivvfourrr.appendChild(pictuuu);
 
-// document.querySelector('.card-3-tester > picture > img').setAttribute('class', 'adpimg__img');
+document.querySelector('.card-3-tester > picture > img').setAttribute('class', 'adpimg__img');
 
-// //creating div container two
-// var containerDivvTwooo = document.createElement('div');
-// //adding class to container Div
-// containerDivvTwooo.setAttribute('class','tile-content');  
-// articleElementdivv.appendChild(containerDivvTwooo);
+//creating div container two
+var containerDivvTwooo = document.createElement('div');
+//adding class to container Div
+containerDivvTwooo.setAttribute('class','tile-content');  
+articleElementdivv.appendChild(containerDivvTwooo);
 
-// //Creating Inside div container two
-// var containerTwooInsideeDivvv = document.createElement('div');
-// //adding class
-// containerTwooInsideeDivvv.setAttribute('class','tile-content-copy');
-// containerDivvTwooo.appendChild(containerTwooInsideeDivvv);
+//Creating Inside div container two
+var containerTwooInsideeDivvv = document.createElement('div');
+//adding class
+containerTwooInsideeDivvv.setAttribute('class','tile-content-copy');
+containerDivvTwooo.appendChild(containerTwooInsideeDivvv);
 
-// //Creating Inside two div container two
-// var containerTwoInsideDivvTwooo = document.createElement('h4');
-// //adding class
-// containerTwoInsideDivvTwooo.setAttribute('class','tile-title');
-// containerTwoInsideDivvTwooo.setAttribute('id','card-title-id-2');
-// containerTwooInsideeDivvv.appendChild(containerTwoInsideDivvTwooo);
+//Creating Inside two div container two
+var containerTwoInsideDivvTwooo = document.createElement('h4');
+//adding class
+containerTwoInsideDivvTwooo.setAttribute('class','tile-title');
+containerTwoInsideDivvTwooo.setAttribute('id','card-title-id-2');
+containerTwooInsideeDivvv.appendChild(containerTwoInsideDivvTwooo);
 
-// //Creating Inside three div container two
-// var containerTwoInsideDivvThreeee = document.createElement('div');
-// //adding class
-// containerTwoInsideDivvThreeee.setAttribute('class','rte-wrapper');
-// containerTwoInsideDivvTwooo.appendChild(containerTwoInsideDivvThreeee);
+//Creating Inside three div container two
+var containerTwoInsideDivvThreeee = document.createElement('div');
+//adding class
+containerTwoInsideDivvThreeee.setAttribute('class','rte-wrapper');
+containerTwoInsideDivvTwooo.appendChild(containerTwoInsideDivvThreeee);
 
-// //Creating Inside div four para container two with value
-// var containerTwoInsideDivvvFourValuee = document.querySelectorAll('.dx-card-media > div > div > p')[4];
-// containerTwoInsideDivvThreeee.appendChild(containerTwoInsideDivvvFourValuee);
+//Creating Inside div four para container two with value
+var containerTwoInsideDivvvFourValuee = document.querySelectorAll('.dx-card-media > div > div > p')[6];
+containerTwoInsideDivvThreeee.appendChild(containerTwoInsideDivvvFourValuee);
 
-// //Creating Inside five div container two
-// var containerTwoInsideDivvvFivee = document.createElement('div');
-// //adding class
-// containerTwoInsideDivvvFivee.setAttribute('class','tile-copy');
-// containerTwooInsideeDivvv.appendChild(containerTwoInsideDivvvFivee);
+//Creating Inside five div container two
+var containerTwoInsideDivvvFivee = document.createElement('div');
+//adding class
+containerTwoInsideDivvvFivee.setAttribute('class','tile-copy');
+containerTwooInsideeDivvv.appendChild(containerTwoInsideDivvvFivee);
 
-// //Creating Inside six div container two
-// var containerTwoInsideDivvSiixx = document.createElement('div');
-// //adding class
-// containerTwoInsideDivvSiixx.setAttribute('class','rte-wrapper');
-// containerTwoInsideDivvSiixx.classList.add('cmp-text');
-// containerTwoInsideDivvvFivee.appendChild(containerTwoInsideDivvSiixx);
+//Creating Inside six div container two
+var containerTwoInsideDivvSiixx = document.createElement('div');
+//adding class
+containerTwoInsideDivvSiixx.setAttribute('class','rte-wrapper');
+containerTwoInsideDivvSiixx.classList.add('cmp-text');
+containerTwoInsideDivvvFivee.appendChild(containerTwoInsideDivvSiixx);
 
-// //Creating Inside div seven para container two with value
-// //var containerTwoInsideDivvvSevenn = document.createElement('p');
-// var containerTwoInsideDivvvSevennValue = document.querySelectorAll('.dx-card-media > div > div > p')[4];
-// //containerTwoInsideDivvSiixx.appendChild(containerTwoInsideDivvvSevenn);
-// containerTwoInsideDivvSiixx.appendChild(containerTwoInsideDivvvSevennValue);
+//Creating Inside div seven para container two with value
+//var containerTwoInsideDivvvSevenn = document.createElement('p');
+var containerTwoInsideDivvvSevennValue = document.querySelectorAll('.dx-card-media > div > div > p')[6];
+//containerTwoInsideDivvSiixx.appendChild(containerTwoInsideDivvvSevenn);
+containerTwoInsideDivvSiixx.appendChild(containerTwoInsideDivvvSevennValue);
 
-// var containerEighttDivvvv = document.createElement('div');
-// containerEighttDivvvv.setAttribute('class', 'cta-wrapper');
-// containerEighttDivvvv.classList.add('cta-wrapper--row','cta-wrapper--left');
-// containerDivvTwooo.appendChild(containerEighttDivvvv);
+var containerEighttDivvvv = document.createElement('div');
+containerEighttDivvvv.setAttribute('class', 'cta-wrapper');
+containerEighttDivvvv.classList.add('cta-wrapper--row','cta-wrapper--left');
+containerDivvTwooo.appendChild(containerEighttDivvvv);
 
-// var anchorNewOnee = document.createElement('a');
-// var anchorValueOnee = document.querySelectorAll('.dx-card-media > div > div > p')[4].innerText;
-// var anchorLinkkk =  document.querySelectorAll('.dx-card-media > div > div > p')[5].innerText;
-// anchorNewOnee.setAttribute('id','cta-1-508572-531840');
-// anchorNewOnee.setAttribute('class','link-chevron');
-// anchorNewOnee.setAttribute('href',anchorLinkkk);
-// anchorNewOnee.setAttribute('title',anchorValueOne);
-// anchorNewOnee.setAttribute('data-event','site interaction');
-// anchorNewOnee.setAttribute('data-category','card|help-and-support|li');
-// anchorNewOnee.setAttribute('data-description','help-and-support');
-// anchorNewOnee.setAttribute('aria-labelledby','cta-1-508572-531840 card-title-id-2');
-// containerEighttDivvvv.appendChild(anchorNewOnee);
-// anchorNewOnee.innerHTML = anchorValueOnee;
-// document.querySelectorAll('.dx-card-media > div > div > p')[4].style.display = 'none';
-// document.querySelectorAll('.dx-card-media > div > div > p')[5].style.display = 'none';
+var anchorNewOnee = document.createElement('a');
+var anchorValueOnee = document.querySelectorAll('.dx-card-media > div > div > p')[8].textContent;
+var anchorLinkkk =  document.querySelectorAll('.dx-card-media > div > div > p > a')[5].href;
+anchorNewOnee.setAttribute('id','cta-1-508572-531840');
+anchorNewOnee.setAttribute('class','link-chevron');
+anchorNewOnee.setAttribute('href',anchorLinkkk);
+anchorNewOnee.setAttribute('title',anchorValueOne);
+anchorNewOnee.setAttribute('data-event','site interaction');
+anchorNewOnee.setAttribute('data-category','card|help-and-support|li');
+anchorNewOnee.setAttribute('data-description','help-and-support');
+anchorNewOnee.setAttribute('aria-labelledby','cta-1-508572-531840 card-title-id-2');
+containerEighttDivvvv.appendChild(anchorNewOnee);
+anchorNewOnee.innerHTML = anchorValueOnee;
+document.querySelectorAll('.dx-card-media > div > div ')[7].style.display = 'none';
+document.querySelectorAll('.dx-card-media > div > div ')[8].style.display = 'none';
