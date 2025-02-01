@@ -182,22 +182,22 @@ var containerTwoInsideDivvThreee = document.createElement('div');
 containerTwoInsideDivvThreee.setAttribute('class','rte-wrapper');
 containerTwoInsideDivvTwoo.appendChild(containerTwoInsideDivvThreee);
 
-//Creating Inside div four para container two with value
-var containerTwoInsideDivvvFourValue = document.querySelector('.dx-text-media > div > div > p');
-containerTwoInsideDivvThreee.appendChild(containerTwoInsideDivvvFourValue);
+// //Creating Inside div four para container two with value
+// var containerTwoInsideDivvvFourValue = document.querySelector('.dx-text-media > div > div > p');
+// containerTwoInsideDivvThreee.appendChild(containerTwoInsideDivvvFourValue);
 
-//Creating Inside five div container two
-var containerTwoInsideDivvvFive = document.createElement('div');
-//adding class
-containerTwoInsideDivvvFive.setAttribute('class','tile-copy');
-containerTwoInsideDivvv.appendChild(containerTwoInsideDivvvFive);
+// //Creating Inside five div container two
+// var containerTwoInsideDivvvFive = document.createElement('div');
+// //adding class
+// containerTwoInsideDivvvFive.setAttribute('class','tile-copy');
+// containerTwoInsideDivvv.appendChild(containerTwoInsideDivvvFive);
 
-//Creating Inside six div container two
-var containerTwoInsideDivvSixx = document.createElement('div');
-//adding class
-containerTwoInsideDivvSixx.setAttribute('class','rte-wrapper');
-containerTwoInsideDivvSixx.classList.add('cmp-text');
-containerTwoInsideDivvvFive.appendChild(containerTwoInsideDivvSixx);
+// //Creating Inside six div container two
+// var containerTwoInsideDivvSixx = document.createElement('div');
+// //adding class
+// containerTwoInsideDivvSixx.setAttribute('class','rte-wrapper');
+// containerTwoInsideDivvSixx.classList.add('cmp-text');
+// containerTwoInsideDivvvFive.appendChild(containerTwoInsideDivvSixx);
 
 // //Creating Inside div seven para container two with value
 // //var containerTwoInsideDivvvSeven = document.createElement('p');
