@@ -290,11 +290,11 @@ containerTwoInsideDivvTwooo.appendChild(containerTwoInsideDivvThreeee);
 var containerTwoInsideDivvvFourValuee = document.querySelectorAll('.dx-text-media > div > div > p')[4];
 containerTwoInsideDivvThreeee.appendChild(containerTwoInsideDivvvFourValuee);
 
-//Creating Inside five div container two
-var containerTwoInsideDivvvFivee = document.createElement('div');
-//adding class
-containerTwoInsideDivvvFivee.setAttribute('class','tile-copy');
-containerTwooInsideDivvv.appendChild(containerTwoInsideDivvvFivee);
+// //Creating Inside five div container two
+// var containerTwoInsideDivvvFivee = document.createElement('div');
+// //adding class
+// containerTwoInsideDivvvFivee.setAttribute('class','tile-copy');
+// containerTwooInsideDivvv.appendChild(containerTwoInsideDivvvFivee);
 
 // //Creating Inside six div container two
 // var containerTwoInsideDivvSiixx = document.createElement('div');
