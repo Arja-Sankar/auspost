@@ -49,10 +49,10 @@ articleElem.appendChild(containerInsideDivthree);
 var containerInsideDivfour = document.createElement('div');
 //adding class
 containerInsideDivfour.setAttribute('class','adpimg__container');
-containerInsideDivfour.classList.add('adpimg__display--fluid', 'adpimg__obj-fit', 'js-object-fit', 'adpimg__obj-fit--h25-v75');
+containerInsideDivfour.classList.add('adpimg__display--fluid', 'adpimg__obj-fit', 'js-object-fit', 'adpimg__obj-fit--h50-v50');
 containerInsideDivthree.appendChild(containerInsideDivfour);
 
-var pict = document.querySelector('.dx-card > div > div > picture');
+var pict = document.querySelector('.dx-card-secondary > div > div > picture');
 containerInsideDivfour.appendChild(pict);
 
 document.querySelector('.adpimg__obj-fit--h25-v75 > picture > img').setAttribute('class', 'adpimg__img')
