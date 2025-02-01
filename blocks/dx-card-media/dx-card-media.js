@@ -145,107 +145,107 @@ document.querySelectorAll('.dx-card-media > div > div')[1].style.display = 'none
 document.querySelectorAll('.dx-card-media > div > div')[2].style.display = 'none';
 //---------------------------------
 
-// //Creating Inside div two
-// var containerInsideDivvtwoo = document.createElement('div');
-// //adding class
-// containerInsideDivvtwoo.setAttribute('class','card');  
-// containerInsideDivv.appendChild(containerInsideDivvtwoo);
+//Creating Inside div two
+var containerInsideDivvtwoo = document.createElement('div');
+//adding class
+containerInsideDivvtwoo.setAttribute('class','card');  
+containerInsideDivv.appendChild(containerInsideDivvtwoo);
 
-// //creating article
-// var articleElementdiv = document.createElement('article');
-// //adding class to article
-// articleElementdiv.setAttribute('class','tile');
-// articleElementdiv.classList.add('tile--card','bg-color','tile--simulate-links');
-// containerInsideDivvtwoo.appendChild(articleElementdiv);
+//creating article
+var articleElementdiv = document.createElement('article');
+//adding class to article
+articleElementdiv.setAttribute('class','tile');
+articleElementdiv.classList.add('tile--card','bg-color','tile--simulate-links');
+containerInsideDivvtwoo.appendChild(articleElementdiv);
 
-// //Creating Inside div three
-// var containerInsideDivvthreee = document.createElement('div');
-// //adding class
-// containerInsideDivvthreee.setAttribute('class','tile-image');  
-// articleElementdiv.appendChild(containerInsideDivvthreee);
+//Creating Inside div three
+var containerInsideDivvthreee = document.createElement('div');
+//adding class
+containerInsideDivvthreee.setAttribute('class','tile-image');  
+articleElementdiv.appendChild(containerInsideDivvthreee);
 
-// //Creating Inside div four
-// var containerInsideDivvfourr = document.createElement('div');
-// //adding class
-// containerInsideDivvfourr.setAttribute('class','adpimg__container');
-// containerInsideDivvfourr.classList.add('adpimg__display--rectangle','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h50-v50','card-2-tester');
-// containerInsideDivvthreee.appendChild(containerInsideDivvfourr);
+//Creating Inside div four
+var containerInsideDivvfourr = document.createElement('div');
+//adding class
+containerInsideDivvfourr.setAttribute('class','adpimg__container');
+containerInsideDivvfourr.classList.add('adpimg__display--rectangle','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h50-v50','card-2-tester');
+containerInsideDivvthreee.appendChild(containerInsideDivvfourr);
 
-// var pictuu = document.querySelector('.dx-card-media > div > div > picture');
-// containerInsideDivvfourr.appendChild(pictuu);
+var pictuu = document.querySelector('.dx-card-media > div > div > picture');
+containerInsideDivvfourr.appendChild(pictuu);
 
-// document.querySelector('.card-2-tester > picture > img').setAttribute('class', 'adpimg__img');
+document.querySelector('.card-2-tester > picture > img').setAttribute('class', 'adpimg__img');
 
-// //creating div container two
-// var containerDivvTwoo = document.createElement('div');
-// //adding class to container Div
-// containerDivvTwoo.setAttribute('class','tile-content');  
-// articleElementdiv.appendChild(containerDivvTwoo);
+//creating div container two
+var containerDivvTwoo = document.createElement('div');
+//adding class to container Div
+containerDivvTwoo.setAttribute('class','tile-content');  
+articleElementdiv.appendChild(containerDivvTwoo);
 
-// //Creating Inside div container two
-// var containerTwoInsideDivvv = document.createElement('div');
-// //adding class
-// containerTwoInsideDivvv.setAttribute('class','tile-content-copy');
-// containerDivvTwoo.appendChild(containerTwoInsideDivvv);
+//Creating Inside div container two
+var containerTwoInsideDivvv = document.createElement('div');
+//adding class
+containerTwoInsideDivvv.setAttribute('class','tile-content-copy');
+containerDivvTwoo.appendChild(containerTwoInsideDivvv);
 
-// //Creating Inside two div container two
-// var containerTwoInsideDivvTwoo = document.createElement('h4');
-// //adding class
-// containerTwoInsideDivvTwoo.setAttribute('class','tile-title');
-// containerTwoInsideDivvTwoo.setAttribute('id','card-title-id-1');
-// containerTwoInsideDivvv.appendChild(containerTwoInsideDivvTwoo);
+//Creating Inside two div container two
+var containerTwoInsideDivvTwoo = document.createElement('h4');
+//adding class
+containerTwoInsideDivvTwoo.setAttribute('class','tile-title');
+containerTwoInsideDivvTwoo.setAttribute('id','card-title-id-1');
+containerTwoInsideDivvv.appendChild(containerTwoInsideDivvTwoo);
 
-// //Creating Inside three div container two
-// var containerTwoInsideDivvThreee = document.createElement('div');
-// //adding class
-// containerTwoInsideDivvThreee.setAttribute('class','rte-wrapper');
-// containerTwoInsideDivvTwoo.appendChild(containerTwoInsideDivvThreee);
+//Creating Inside three div container two
+var containerTwoInsideDivvThreee = document.createElement('div');
+//adding class
+containerTwoInsideDivvThreee.setAttribute('class','rte-wrapper');
+containerTwoInsideDivvTwoo.appendChild(containerTwoInsideDivvThreee);
 
-// //Creating Inside div four para container two with value
-// var containerTwoInsideDivvvFourValue = document.querySelectorAll('.dx-card-media > div > div > p')[2];
-// containerTwoInsideDivvThreee.appendChild(containerTwoInsideDivvvFourValue);
+//Creating Inside div four para container two with value
+var containerTwoInsideDivvvFourValue = document.querySelectorAll('.dx-card-media > div > div > p')[4];
+containerTwoInsideDivvThreee.appendChild(containerTwoInsideDivvvFourValue);
 
-// //Creating Inside five div container two
-// var containerTwoInsideDivvvFive = document.createElement('div');
-// //adding class
-// containerTwoInsideDivvvFive.setAttribute('class','tile-copy');
-// containerTwoInsideDivvv.appendChild(containerTwoInsideDivvvFive);
+//Creating Inside five div container two
+var containerTwoInsideDivvvFive = document.createElement('div');
+//adding class
+containerTwoInsideDivvvFive.setAttribute('class','tile-copy');
+containerTwoInsideDivvv.appendChild(containerTwoInsideDivvvFive);
 
-// //Creating Inside six div container two
-// var containerTwoInsideDivvSixx = document.createElement('div');
-// //adding class
-// containerTwoInsideDivvSixx.setAttribute('class','rte-wrapper');
-// containerTwoInsideDivvSixx.classList.add('cmp-text');
-// containerTwoInsideDivvvFive.appendChild(containerTwoInsideDivvSixx);
+//Creating Inside six div container two
+var containerTwoInsideDivvSixx = document.createElement('div');
+//adding class
+containerTwoInsideDivvSixx.setAttribute('class','rte-wrapper');
+containerTwoInsideDivvSixx.classList.add('cmp-text');
+containerTwoInsideDivvvFive.appendChild(containerTwoInsideDivvSixx);
 
-// //Creating Inside div seven para container two with value
-// //var containerTwoInsideDivvvSeven = document.createElement('p');
-// var containerTwoInsideDivvvSevenValue = document.querySelectorAll('.dx-card-media > div > div > p')[2];
-// //containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSeven);
-// containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSevenValue);
+//Creating Inside div seven para container two with value
+//var containerTwoInsideDivvvSeven = document.createElement('p');
+var containerTwoInsideDivvvSevenValue = document.querySelectorAll('.dx-card-media > div > div > p')[5];
+//containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSeven);
+containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSevenValue);
 
-// var containerEightDivvvv = document.createElement('div');
-// containerEightDivvvv.setAttribute('class', 'cta-wrapper');
-// containerEightDivvvv.classList.add('cta-wrapper--row','cta-wrapper--left');
-// containerDivvTwoo.appendChild(containerEightDivvvv);
+var containerEightDivvvv = document.createElement('div');
+containerEightDivvvv.setAttribute('class', 'cta-wrapper');
+containerEightDivvvv.classList.add('cta-wrapper--row','cta-wrapper--left');
+containerDivvTwoo.appendChild(containerEightDivvvv);
 
-// var anchorNewOne = document.createElement('a');
-// var anchorValueOne = document.querySelectorAll('.dx-card-media > div > div > p')[2].innerText;
-// var anchorLinkk =  document.querySelectorAll('.dx-card-media > div > div > p')[3].innerText;
-// anchorNewOne.setAttribute('id','cta-1-638208-490290');
-// anchorNewOne.setAttribute('class','link-chevron');
-// anchorNewOne.setAttribute('href',anchorLinkk);
-// anchorNewOne.setAttribute('title',anchorValueOne);
-// anchorNewOne.setAttribute('data-event','site interaction');
-// anchorNewOne.setAttribute('data-category','card|packaging-options|li');
-// anchorNewOne.setAttribute('data-description','shop-packaging');
-// anchorNewOne.setAttribute('aria-labelledby','cta-1-638208-490290 card-title-id-1');
-// containerEightDivvvv.appendChild(anchorNewOne);
-// anchorNewOne.innerHTML = anchorValueOne;
-// document.querySelectorAll('.dx-card-media > div > div > p')[2].style.display = 'none';
-// document.querySelectorAll('.dx-card-media > div > div > p')[3].style.display = 'none';
+var anchorNewOne = document.createElement('a');
+var anchorValueOne = document.querySelectorAll('.dx-card-media > div > div > p')[6].innerText;
+var anchorLinkk =  document.querySelectorAll('.dx-card-media > div > div > p > a')[6].href;
+anchorNewOne.setAttribute('id','cta-1-638208-490290');
+anchorNewOne.setAttribute('class','link-chevron');
+anchorNewOne.setAttribute('href',anchorLinkk);
+anchorNewOne.setAttribute('title',anchorValueOne);
+anchorNewOne.setAttribute('data-event','site interaction');
+anchorNewOne.setAttribute('data-category','card|packaging-options|li');
+anchorNewOne.setAttribute('data-description','shop-packaging');
+anchorNewOne.setAttribute('aria-labelledby','cta-1-638208-490290 card-title-id-1');
+containerEightDivvvv.appendChild(anchorNewOne);
+anchorNewOne.innerHTML = anchorValueOne;
+document.querySelectorAll('.dx-card-media > div > div')[4].style.display = 'none';
+//document.querySelectorAll('.dx-card-media > div > div > p')[3].style.display = 'none';
 
-// //-----------------------------------------------------
+//-----------------------------------------------------
 
 // //Creating Inside div two
 // var containerInsideDivvtwooo = document.createElement('div');
