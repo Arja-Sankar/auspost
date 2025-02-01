@@ -224,26 +224,26 @@ var containerTwoInsideDivvvSevenValue = document.querySelectorAll('.dx-card-medi
 //containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSeven);
 containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSevenValue);
 
-// var containerEightDivvvv = document.createElement('div');
-// containerEightDivvvv.setAttribute('class', 'cta-wrapper');
-// containerEightDivvvv.classList.add('cta-wrapper--row','cta-wrapper--left');
-// containerDivvTwoo.appendChild(containerEightDivvvv);
+var containerEightDivvvv = document.createElement('div');
+containerEightDivvvv.setAttribute('class', 'cta-wrapper');
+containerEightDivvvv.classList.add('cta-wrapper--row','cta-wrapper--left');
+containerDivvTwoo.appendChild(containerEightDivvvv);
 
-// var anchorNewOne = document.createElement('a');
-// var anchorValueOne = document.querySelectorAll('.dx-card-media > div > div > p')[6].innerText;
-// var anchorLinkk =  document.querySelectorAll('.dx-card-media > div > div > p > a')[6].href;
-// anchorNewOne.setAttribute('id','cta-1-638208-490290');
-// anchorNewOne.setAttribute('class','link-chevron');
-// anchorNewOne.setAttribute('href',anchorLinkk);
-// anchorNewOne.setAttribute('title',anchorValueOne);
-// anchorNewOne.setAttribute('data-event','site interaction');
-// anchorNewOne.setAttribute('data-category','card|packaging-options|li');
-// anchorNewOne.setAttribute('data-description','shop-packaging');
-// anchorNewOne.setAttribute('aria-labelledby','cta-1-638208-490290 card-title-id-1');
-// containerEightDivvvv.appendChild(anchorNewOne);
-// anchorNewOne.innerHTML = anchorValueOne;
-// document.querySelectorAll('.dx-card-media > div > div')[4].style.display = 'none';
-// //document.querySelectorAll('.dx-card-media > div > div > p')[3].style.display = 'none';
+var anchorNewOne = document.createElement('a');
+var anchorValueOne = document.querySelectorAll('.dx-card-media > div > div > p')[6].innerText;
+var anchorLinkk =  document.querySelectorAll('.dx-card-media > div > div > p > a')[6].href;
+anchorNewOne.setAttribute('id','cta-1-638208-490290');
+anchorNewOne.setAttribute('class','link-chevron');
+anchorNewOne.setAttribute('href',anchorLinkk);
+anchorNewOne.setAttribute('title',anchorValueOne);
+anchorNewOne.setAttribute('data-event','site interaction');
+anchorNewOne.setAttribute('data-category','card|packaging-options|li');
+anchorNewOne.setAttribute('data-description','shop-packaging');
+anchorNewOne.setAttribute('aria-labelledby','cta-1-638208-490290 card-title-id-1');
+containerEightDivvvv.appendChild(anchorNewOne);
+anchorNewOne.innerHTML = anchorValueOne;
+document.querySelectorAll('.dx-card-media > div > div')[4].style.display = 'none';
+//document.querySelectorAll('.dx-card-media > div > div > p')[3].style.display = 'none';
 
 //-----------------------------------------------------
 
