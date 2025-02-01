@@ -220,7 +220,7 @@ containerTwoInsideDivvThreee.appendChild(containerTwoInsideDivvvFourValue);
 
 // //Creating Inside div seven para container two with value
 // //var containerTwoInsideDivvvSeven = document.createElement('p');
-// var containerTwoInsideDivvvSevenValue = document.querySelectorAll('.dx-card-media > div > div > p')[5];
+// var containerTwoInsideDivvvSevenValue = document.querySelectorAll('.dx-card-media > div > div > p')[4];
 // //containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSeven);
 // containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSevenValue);
 
