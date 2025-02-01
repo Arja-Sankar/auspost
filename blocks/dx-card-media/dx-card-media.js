@@ -131,7 +131,7 @@ var anchorValuee = document.querySelectorAll('.dx-card-media > div > div > p')[1
 var anchorLinkk =  document.querySelectorAll('.dx-card-media > div > div > p > a')[1].href;
 anchorNeww.setAttribute('id','cta-2-425472-470346');
 anchorNeww.setAttribute('class','link-chevron');
-anchorNeww.setAttribute('href',anchorLink);
+anchorNeww.setAttribute('href',anchorLinkk);
 anchorNeww.setAttribute('title',anchorValue);
 anchorNeww.setAttribute('data-event','site interaction');
 anchorNeww.setAttribute('data-category','card|same-day|li');
