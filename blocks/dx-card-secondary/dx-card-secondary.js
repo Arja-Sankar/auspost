@@ -85,28 +85,29 @@ containerTwoInsideDivTwo.appendChild(containerTwoInsideDivThree);
 //Creating Inside div four para container two with value
 var containerTwoInsideDivFour = document.createElement('p');
 // containerTwoInsideDivThree.appendChild(containerTwoInsideDivFour);
-var containerTwoInsideDivFourValue = document.querySelector('.dx-card-secondary > div > div > h4').innerText;
+//var containerTwoInsideDivFourValue = document.querySelector('.dx-card-secondary > div > div > h4').innerText;
 containerTwoInsideDivThree.appendChild(containerTwoInsideDivFour);
-containerTwoInsideDivFour.appendChild(containerTwoInsideDivFourValue);
+//containerTwoInsideDivFour.appendChild(containerTwoInsideDivFourValue);
+containerTwoInsideDivFour.innerHTML = document.querySelector('.dx-card-secondary > div > div > h4').innerText;
 
-//Creating Inside five div container two
-var containerTwoInsideDivFive = document.createElement('div');
-//adding class
-containerTwoInsideDivFive.setAttribute('class','tile-copy');
-containerTwoInsideDiv.appendChild(containerTwoInsideDivFive);
+// //Creating Inside five div container two
+// var containerTwoInsideDivFive = document.createElement('div');
+// //adding class
+// containerTwoInsideDivFive.setAttribute('class','tile-copy');
+// containerTwoInsideDiv.appendChild(containerTwoInsideDivFive);
 
-//Creating Inside six div container two
-var containerTwoInsideDivSix = document.createElement('div');
-//adding class
-containerTwoInsideDivSix.setAttribute('class','rte-wrapper');
-containerTwoInsideDivSix.classList.add('cmp-text');
-containerTwoInsideDivFive.appendChild(containerTwoInsideDivSix);
+// //Creating Inside six div container two
+// var containerTwoInsideDivSix = document.createElement('div');
+// //adding class
+// containerTwoInsideDivSix.setAttribute('class','rte-wrapper');
+// containerTwoInsideDivSix.classList.add('cmp-text');
+// containerTwoInsideDivFive.appendChild(containerTwoInsideDivSix);
 
-//Creating Inside div seven para container two with value
-var containerTwoInsideDivSeven = document.createElement('p');
-var containerTwoInsideDivSevenValue = document.querySelector('.dx-card-secondary > div > div > h4').innerText;
-containerTwoInsideDivSix.appendChild(containerTwoInsideDivSeven);
-containerTwoInsideDivSeven.appendChild(containerTwoInsideDivSevenValue);
+// //Creating Inside div seven para container two with value
+// var containerTwoInsideDivSeven = document.createElement('p');
+// var containerTwoInsideDivSevenValue = document.querySelector('.dx-card-secondary > div > div > h4').innerText;
+// containerTwoInsideDivSix.appendChild(containerTwoInsideDivSeven);
+// containerTwoInsideDivSeven.appendChild(containerTwoInsideDivSevenValue);
 
 // //Creating Inside div eight ul container two
 // var containerTwoInsideDivUL = document.createElement('ul');
