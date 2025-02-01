@@ -127,7 +127,7 @@ document.querySelectorAll('.dx-card-media > div > div')[1].style.display = 'none
 //document.querySelectorAll('.dx-card-media > div > div')[2].style.display = 'none';
 
 var anchorNeww = document.createElement('a');
-var anchorValuee =  document.querySelector('.dx-card-media > div > div > p').innerText;
+var anchorValuee =  document.querySelectorAll('.dx-card-media > div > div > p > a')[0].innerText;
 var anchorLinkk =  document.querySelectorAll('.dx-card-media > div > div > p > a')[1].href;
 anchorNeww.setAttribute('id','cta-2-425472-470346');
 anchorNeww.setAttribute('class','link-chevron');
