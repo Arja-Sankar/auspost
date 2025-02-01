@@ -1,4 +1,4 @@
-/* .cta-wrapper > a > p {
- margin: 0;
+.cta-wrapper > a{
+text-decoration: none;
+color:  #fff;    
 }
- */
