@@ -112,7 +112,7 @@ containerDivvTwo.appendChild(containerEightDivvv);
 
 var anchorNew = document.createElement('a');
 var anchorValue =  document.querySelector('.dx-card-media > div > div > p').innerText;
-var anchorLink =  document.querySelectorAll('.dx-card-media > div > div')[2].innerText;
+var anchorLink =  document.querySelectorAll('.dx-card-media > div > div > p > a')[0].href;
 anchorNew.setAttribute('id','cta-1-628236-624912');
 anchorNew.setAttribute('class','link-chevron');
 anchorNew.setAttribute('href',anchorLink);
@@ -123,8 +123,24 @@ anchorNew.setAttribute('data-description','learn-more');
 anchorNew.setAttribute('aria-labelledby','cta-1-628236-624912 card-title-id-0');
 containerEightDivvv.appendChild(anchorNew);
 anchorNew.innerHTML = anchorValue;
+document.querySelectorAll('.dx-card-media > div > div')[1].style.display = 'none';
+//document.querySelectorAll('.dx-card-media > div > div')[2].style.display = 'none';
+
+var anchorNeww = document.createElement('a');
+var anchorValuee =  document.querySelector('.dx-card-media > div > div > p').innerText;
+var anchorLinkk =  document.querySelectorAll('.dx-card-media > div > div > p > a')[1].href;
+anchorNeww.setAttribute('id','cta-2-425472-470346');
+anchorNeww.setAttribute('class','link-chevron');
+anchorNeww.setAttribute('href',anchorLink);
+anchorNeww.setAttribute('title',anchorValue);
+anchorNeww.setAttribute('data-event','site interaction');
+anchorNeww.setAttribute('data-category','card|same-day|li');
+anchorNeww.setAttribute('data-description','next-flight');
+anchorNeww.setAttribute('aria-labelledby','cta-2-425472-470346 card-title-id-0');
+containerEightDivvv.appendChild(anchorNeww);
+anchorNeww.innerHTML = anchorValuee;
 // document.querySelectorAll('.dx-card-media > div > div')[1].style.display = 'none';
-// document.querySelectorAll('.dx-card-media > div > div')[2].style.display = 'none';
+ document.querySelectorAll('.dx-card-media > div > div')[2].style.display = 'none';
 
 //---------------------------------
 
