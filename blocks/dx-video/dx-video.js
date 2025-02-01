@@ -83,3 +83,36 @@ containerrTwoInsideDivvFive.appendChild(containerrTwoInsideDivvSix);
 //Creating Inside div seven para container two with value
 var containerrTwoInsideDivvSevenValue = document.querySelector('.dx-video > div > div > p');
 containerrTwoInsideDivvSix.appendChild(containerrTwoInsideDivvSevenValue);
+
+//Creating Inside div two
+var containerInsidervideo = document.createElement('div');
+//adding class
+containerInsidervideo.setAttribute('class','youtube-player');  
+containerInsiderDivv.appendChild(containerInsidervideo);
+
+var containerInsidervideoOne = document.createElement('div');
+//adding class
+containerInsidervideoOne.setAttribute('class','video-player');  
+containerInsidervideo.appendChild(containerInsidervideoOne);
+
+var containerInsidervideoTwo = document.createElement('div');
+//adding class
+containerInsidervideoTwo.setAttribute('class','vp-wrapper');  
+containerInsidervideoOne.appendChild(containerInsidervideoTwo);
+
+var containerInsidervideoThree = document.createElement('iframe');
+var videosrc = document.querySelector('.dx-video > div > div > p').innerText;
+//adding class
+containerInsidervideoThree.setAttribute('class','player');
+containerInsidervideoThree.setAttribute('id','video-player-596658-402204');
+containerInsidervideoThree.setAttribute('data-video-id','E6qQxbyB47I');
+containerInsidervideoThree.setAttribute('frameborder','0');
+containerInsidervideoThree.setAttribute('allowfullscreen','');
+containerInsidervideoThree.setAttribute('allow','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+containerInsidervideoThree.setAttribute('referrerpolicy','strict-origin-when-cross-origin');
+containerInsidervideoThree.setAttribute('title','Rationale Partnership | StarTrack');
+containerInsidervideoThree.setAttribute('width','640');
+containerInsidervideoThree.setAttribute('height','360');
+containerInsidervideoThree.setAttribute('src',videosrc);
+containerInsidervideoTwo.appendChild(containerInsidervideoThree);
+document.querySelector('.dx-video > div > div > p').style.display = 'none';
