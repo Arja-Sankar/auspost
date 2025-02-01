@@ -86,8 +86,8 @@ containerTwoInsideDivTwo.appendChild(containerTwoInsideDivThree);
 var containerTwoInsideDivFour = document.createElement('p');
 // containerTwoInsideDivThree.appendChild(containerTwoInsideDivFour);
 var containerTwoInsideDivFourValue = document.querySelector('.dx-card-secondary > div > div > h4').innerText;
-containerTwoInsideDivThree.appendChild(containerTwoInsideDivFourValue);
-containerTwoInsideDivFour.innerHTML = containerTwoInsideDivFourValue;
+containerTwoInsideDivThree.appendChild(containerTwoInsideDivFour);
+containerTwoInsideDivFour.appendChild(containerTwoInsideDivFourValue);
 
 //Creating Inside five div container two
 var containerTwoInsideDivFive = document.createElement('div');
