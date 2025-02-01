@@ -104,21 +104,21 @@ var containerTwoInsideDivvSevenValue = document.querySelector('.dx-text-media > 
 //containerTwoInsideDivvSix.appendChild(containerTwoInsideDivvSeven);
 containerTwoInsideDivvSix.appendChild(containerTwoInsideDivvSevenValue);
 
-var containerEightDivv = document.createElement('div');
-containerEightDivv.SetAttribute('class', 'cta-wrapper');
-containerEightDivv.classList.add('cta-wrapper--row','cta-wrapper--left');
-containerDivvTwo.appendChild(containerEightDivv);
+var containerEightDivvv = document.createElement('div');
+containerEightDivvv.setAttribute('class', 'cta-wrapper');
+containerEightDivvv.classList.add('cta-wrapper--row','cta-wrapper--left');
+containerDivvTwo.appendChild(containerEightDivvv);
 
-// var anchorNew = document.createElement('a');
-// var anchorValue =  document.querySelector('.dx-text-media > div > div > p').innerText;
-// var anchorLink =  document.querySelectorAll('.dx-text-media > div > div')[2].innerText;
-// anchorNew.setAttribute('id','cta-1-628236-624912');
-// anchorNew.setAttribute('class','link-chevron');
-// anchorNew.setAttribute('href',anchorLink);
-// anchorNew.setAttribute('title',anchorValue);
-// anchorNew.setAttribute('data-event','site interaction');
-// anchorNew.setAttribute('data-category','card|freight-services|li');
-// anchorNew.setAttribute('data-description','learn-more');
-// anchorNew.setAttribute('aria-labelledby','cta-1-628236-624912 card-title-id-0');
-// containerEightDivv.appendChild(anchorNew);
-// anchorNew.innerHTML = anchorValue;
+var anchorNew = document.createElement('a');
+var anchorValue =  document.querySelector('.dx-text-media > div > div > p').innerText;
+var anchorLink =  document.querySelectorAll('.dx-text-media > div > div')[2].innerText;
+anchorNew.setAttribute('id','cta-1-628236-624912');
+anchorNew.setAttribute('class','link-chevron');
+anchorNew.setAttribute('href',anchorLink);
+anchorNew.setAttribute('title',anchorValue);
+anchorNew.setAttribute('data-event','site interaction');
+anchorNew.setAttribute('data-category','card|freight-services|li');
+anchorNew.setAttribute('data-description','learn-more');
+anchorNew.setAttribute('aria-labelledby','cta-1-628236-624912 card-title-id-0');
+containerEightDivvv.appendChild(anchorNew);
+anchorNew.innerHTML = anchorValue;
