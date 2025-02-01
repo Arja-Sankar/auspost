@@ -375,10 +375,10 @@ containerInsideDivvffour.setAttribute('class','adpimg__container');
 containerInsideDivvffour.classList.add('adpimg__display--rectangle','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h50-v50','card-85-tester');
 containerInsideDivvtthree.appendChild(containerInsideDivvffour);
 
-var picttu = document.querySelector('.dx-card-media > div > div > picture');
-containerInsideDivvfour.appendChild(picttu);
+// var picttu = document.querySelector('.dx-card-media > div > div > picture');
+// containerInsideDivvfour.appendChild(picttu);
 
-document.querySelector('.card-85-tester > picture > img').setAttribute('class', 'adpimg__img');
+// document.querySelector('.card-85-tester > picture > img').setAttribute('class', 'adpimg__img');
 
 // //creating div container two
 // var containerDivvTtwo = document.createElement('div');
