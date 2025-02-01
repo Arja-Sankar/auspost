@@ -99,7 +99,9 @@ var containerInsidervideoTwo = document.createElement('div');
 //adding class
 containerInsidervideoTwo.setAttribute('class','vp-wrapper');  
 containerInsidervideoOne.appendChild(containerInsidervideoTwo);
-containerInsidervideoTwo.innerHTML = <iframe width="640" height="360" src="https://www.youtube.com/embed/E6qQxbyB47I" title="Rationale Partnership | StarTrack" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+var divIframe = <iframe width="640" height="360" src="https://www.youtube.com/embed/E6qQxbyB47I" title="Rationale Partnership | StarTrack" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>;
+containerInsidervideoTwo.appendChild(divIframe);
+
 // var containerInsidervideoThree = document.createElement('iframe');
 // var videosrc = document.querySelector('.dx-video > div > div > p').innerText;
 // //adding class
@@ -115,4 +117,4 @@ containerInsidervideoTwo.innerHTML = <iframe width="640" height="360" src="https
 // containerInsidervideoThree.setAttribute('height','360');
 // containerInsidervideoThree.setAttribute('src',videosrc);
 // containerInsidervideoTwo.appendChild(containerInsidervideoThree);
-// document.querySelector('.dx-video > div > div > p').style.display = 'none';
+document.querySelector('.dx-video > div > div > p').style.display = 'none';
