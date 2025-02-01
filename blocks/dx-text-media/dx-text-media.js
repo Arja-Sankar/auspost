@@ -268,17 +268,17 @@ containerDivvTwooo.setAttribute('class','tile-content');
 articleElementdivv.appendChild(containerDivvTwooo);
 
 //Creating Inside div container two
-var containerTwooInsideDivvv = document.createElement('div');
+var containerTwooInsideeDivvv = document.createElement('div');
 //adding class
-containerTwoooInsideDivvv.setAttribute('class','tile-content-copy');
-containerDivvTwooo.appendChild(containerTwooInsideDivvv);
+containerTwooInsideeDivvv.setAttribute('class','tile-content-copy');
+containerDivvTwooo.appendChild(containerTwooInsideeDivvv);
 
 //Creating Inside two div container two
 var containerTwoInsideDivvTwooo = document.createElement('h4');
 //adding class
 containerTwoInsideDivvTwooo.setAttribute('class','tile-title');
 containerTwoInsideDivvTwooo.setAttribute('id','card-title-id-2');
-containerTwooInsideDivvv.appendChild(containerTwoInsideDivvTwooo);
+containerTwooInsideeDivvv.appendChild(containerTwoInsideDivvTwooo);
 
 //Creating Inside three div container two
 var containerTwoInsideDivvThreeee = document.createElement('div');
