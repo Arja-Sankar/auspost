@@ -124,7 +124,7 @@ var containerInsidervideotranscript = document.createElement('div');
 containerInsidervideotranscript.setAttribute('class','expandable-block');
 containerInsidervideotranscript.classList.add('js-expandable-block','expandable-block--video');
 containerInsidervideo.appendChild(containerInsidervideotranscript);
-containerInsidervideotranscript.innerHTML = '<div class="expandable-block-header js-expandable-block-header font-heading-5 expandable-block-header-video">
+containerInsidervideotranscript.innerHTML = `<div class="expandable-block-header js-expandable-block-header font-heading-5 expandable-block-header-video">
         <button class="expandable-block-trigger js-expandable-block-trigger expandable-block-trigger--video" id="expandable-block-trigger-596658-402204" aria-expanded="false" title="Read transcript" data-event="site interaction" data-category="acc|exp|clk" data-description="read-transcript|transcript">
           <span class="icon icon--16 icon-video-transcript">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M22 2.5C22 1.122 20.82 0 19.368 0H4.632C3.18 0 2 1.122 2 2.5v19C2 22.878 3.18 24 4.632 24h14.736C20.82 24 22 22.878 22 21.5v-19zM19.368 22c.29 0 .527-.224.527-.5v-19c0-.276-.237-.5-.527-.5H4.632a.515.515 0 00-.527.5v19c0 .276.237.5.527.5h14.736z"></path><path d="M6.21 7.363c0-.451.354-.818.79-.818h9.228c.436 0 .79.367.79.818 0 .452-.354.819-.79.819H7c-.436 0-.79-.367-.79-.819zM6.21 11.728c0-.452.354-.819.79-.819h9.228c.436 0 .79.367.79.819 0 .451-.354.818-.79.818H7c-.436 0-.79-.367-.79-.818zM6.21 16.09c0-.451.354-.817.79-.817h9.228c.436 0 .79.366.79.818 0 .452-.354.818-.79.818H7c-.436 0-.79-.366-.79-.818z"></path></svg>
@@ -155,4 +155,4 @@ containerInsidervideotranscript.innerHTML = '<div class="expandable-block-header
 </div>
         </div>
       </div>
-    </article>';
+    </article>`;
