@@ -296,36 +296,36 @@ var containerTwoInsideDivvvFivee = document.createElement('div');
 containerTwoInsideDivvvFivee.setAttribute('class','tile-copy');
 containerTwooInsideDivvv.appendChild(containerTwoInsideDivvvFivee);
 
-//Creating Inside six div container two
-var containerTwoInsideDivvSiixx = document.createElement('div');
-//adding class
-containerTwoInsideDivvSiixx.setAttribute('class','rte-wrapper');
-containerTwoInsideDivvSiixx.classList.add('cmp-text');
-containerTwoInsideDivvvFivee.appendChild(containerTwoInsideDivvSiixx);
+// //Creating Inside six div container two
+// var containerTwoInsideDivvSiixx = document.createElement('div');
+// //adding class
+// containerTwoInsideDivvSiixx.setAttribute('class','rte-wrapper');
+// containerTwoInsideDivvSiixx.classList.add('cmp-text');
+// containerTwoInsideDivvvFivee.appendChild(containerTwoInsideDivvSiixx);
 
-//Creating Inside div seven para container two with value
-//var containerTwoInsideDivvvSevenn = document.createElement('p');
-var containerTwoInsideDivvvSevennValue = document.querySelectorAll('.dx-text-media > div > div > p')[4];
-//containerTwoInsideDivvSiixx.appendChild(containerTwoInsideDivvvSevenn);
-containerTwoInsideDivvSiixx.appendChild(containerTwoInsideDivvvSevennValue);
+// //Creating Inside div seven para container two with value
+// //var containerTwoInsideDivvvSevenn = document.createElement('p');
+// var containerTwoInsideDivvvSevennValue = document.querySelectorAll('.dx-text-media > div > div > p')[4];
+// //containerTwoInsideDivvSiixx.appendChild(containerTwoInsideDivvvSevenn);
+// containerTwoInsideDivvSiixx.appendChild(containerTwoInsideDivvvSevennValue);
 
-var containerEighttDivvvv = document.createElement('div');
-containerEighttDivvvv.setAttribute('class', 'cta-wrapper');
-containerEighttDivvvv.classList.add('cta-wrapper--row','cta-wrapper--left');
-containerDivvTwooo.appendChild(containerEighttDivvvv);
+// var containerEighttDivvvv = document.createElement('div');
+// containerEighttDivvvv.setAttribute('class', 'cta-wrapper');
+// containerEighttDivvvv.classList.add('cta-wrapper--row','cta-wrapper--left');
+// containerDivvTwooo.appendChild(containerEighttDivvvv);
 
-var anchorNewOnee = document.createElement('a');
-var anchorValueOnee = document.querySelectorAll('.dx-text-media > div > div > p')[4].innerText;
-var anchorLinkkk =  document.querySelectorAll('.dx-text-media > div > div > p')[5].innerText;
-anchorNewOnee.setAttribute('id','cta-1-508572-531840');
-anchorNewOnee.setAttribute('class','link-chevron');
-anchorNewOnee.setAttribute('href',anchorLinkkk);
-anchorNewOnee.setAttribute('title',anchorValueOne);
-anchorNewOnee.setAttribute('data-event','site interaction');
-anchorNewOnee.setAttribute('data-category','card|help-and-support|li');
-anchorNewOnee.setAttribute('data-description','help-and-support');
-anchorNewOnee.setAttribute('aria-labelledby','cta-1-508572-531840 card-title-id-2');
-containerEighttDivvvv.appendChild(anchorNewOnee);
-anchorNewOnee.innerHTML = anchorValueOnee;
-document.querySelectorAll('.dx-text-media > div > div > p')[4].style.display = 'none';
-document.querySelectorAll('.dx-text-media > div > div > p')[5].style.display = 'none';
+// var anchorNewOnee = document.createElement('a');
+// var anchorValueOnee = document.querySelectorAll('.dx-text-media > div > div > p')[4].innerText;
+// var anchorLinkkk =  document.querySelectorAll('.dx-text-media > div > div > p')[5].innerText;
+// anchorNewOnee.setAttribute('id','cta-1-508572-531840');
+// anchorNewOnee.setAttribute('class','link-chevron');
+// anchorNewOnee.setAttribute('href',anchorLinkkk);
+// anchorNewOnee.setAttribute('title',anchorValueOne);
+// anchorNewOnee.setAttribute('data-event','site interaction');
+// anchorNewOnee.setAttribute('data-category','card|help-and-support|li');
+// anchorNewOnee.setAttribute('data-description','help-and-support');
+// anchorNewOnee.setAttribute('aria-labelledby','cta-1-508572-531840 card-title-id-2');
+// containerEighttDivvvv.appendChild(anchorNewOnee);
+// anchorNewOnee.innerHTML = anchorValueOnee;
+// document.querySelectorAll('.dx-text-media > div > div > p')[4].style.display = 'none';
+// document.querySelectorAll('.dx-text-media > div > div > p')[5].style.display = 'none';
