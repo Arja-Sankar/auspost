@@ -243,7 +243,7 @@ anchorNewOne.setAttribute('aria-labelledby','cta-1-638208-490290 card-title-id-1
 containerEightDivvvv.appendChild(anchorNewOne);
 anchorNewOne.innerHTML = anchorValueOne;
 document.querySelectorAll('.dx-card-media > div > div')[4].style.display = 'none';
-//document.querySelectorAll('.dx-card-media > div > div > p')[3].style.display = 'none';
+document.querySelectorAll('.dx-card-media > div > div')[5].style.display = 'none';
 
 //-----------------------------------------------------
 
