@@ -183,32 +183,32 @@ containerTwoInsideDivvThreee.setAttribute('class','rte-wrapper');
 containerTwoInsideDivvTwoo.appendChild(containerTwoInsideDivvThreee);
 
 //Creating Inside div four para container two with value
-var containerTwoInsideDivvvFourValue = document.querySelectorAll('.dx-text-media > div > div > p')[2].innerText;
+var containerTwoInsideDivvvFourValue = document.querySelectorAll('.dx-text-media > div > div > p')[2].textContent;
 containerTwoInsideDivvThreee.appendChild(containerTwoInsideDivvvFourValue);
 
-//Creating Inside five div container two
-var containerTwoInsideDivvvFive = document.createElement('div');
-//adding class
-containerTwoInsideDivvvFive.setAttribute('class','tile-copy');
-containerTwoInsideDivvv.appendChild(containerTwoInsideDivvvFive);
+// //Creating Inside five div container two
+// var containerTwoInsideDivvvFive = document.createElement('div');
+// //adding class
+// containerTwoInsideDivvvFive.setAttribute('class','tile-copy');
+// containerTwoInsideDivvv.appendChild(containerTwoInsideDivvvFive);
 
-//Creating Inside six div container two
-var containerTwoInsideDivvSixx = document.createElement('div');
-//adding class
-containerTwoInsideDivvSixx.setAttribute('class','rte-wrapper');
-containerTwoInsideDivvSixx.classList.add('cmp-text');
-containerTwoInsideDivvvFive.appendChild(containerTwoInsideDivvSixx);
+// //Creating Inside six div container two
+// var containerTwoInsideDivvSixx = document.createElement('div');
+// //adding class
+// containerTwoInsideDivvSixx.setAttribute('class','rte-wrapper');
+// containerTwoInsideDivvSixx.classList.add('cmp-text');
+// containerTwoInsideDivvvFive.appendChild(containerTwoInsideDivvSixx);
 
-//Creating Inside div seven para container two with value
-//var containerTwoInsideDivvvSeven = document.createElement('p');
-var containerTwoInsideDivvvSevenValue = document.querySelectorAll('.dx-text-media > div > div > p')[3].innerText;
-//containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSeven);
-containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSevenValue);
+// //Creating Inside div seven para container two with value
+// //var containerTwoInsideDivvvSeven = document.createElement('p');
+// var containerTwoInsideDivvvSevenValue = document.querySelectorAll('.dx-text-media > div > div > p')[3].innerText;
+// //containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSeven);
+// containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSevenValue);
 
-var containerEightDivvvv = document.createElement('div');
-containerEightDivvvv.setAttribute('class', 'cta-wrapper');
-containerEightDivvvv.classList.add('cta-wrapper--row','cta-wrapper--left');
-containerDivvTwoo.appendChild(containerEightDivvvv);
+// var containerEightDivvvv = document.createElement('div');
+// containerEightDivvvv.setAttribute('class', 'cta-wrapper');
+// containerEightDivvvv.classList.add('cta-wrapper--row','cta-wrapper--left');
+// containerDivvTwoo.appendChild(containerEightDivvvv);
 
 // var anchorNewOne = document.createElement('a');
 // var anchorValueOne = document.querySelectorAll('.dx-text-media > div > div > p')[4].innerText;
