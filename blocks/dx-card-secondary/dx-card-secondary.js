@@ -83,12 +83,12 @@ containerTwoInsideDivThree.setAttribute('class','rte-wrapper');
 containerTwoInsideDivTwo.appendChild(containerTwoInsideDivThree);
 
 //Creating Inside div four para container two with value
-//var containerTwoInsideDivFour = document.createElement('p');
+var containerTwoInsideDivFour = document.createElement('p');
 // containerTwoInsideDivThree.appendChild(containerTwoInsideDivFour);
-var containerTwoInsideDivFourValue = document.querySelector('.dx-card-secondary > div > div > p');
+//var containerTwoInsideDivFourValue = document.querySelector('.dx-card-secondary > div > div > p');
 containerTwoInsideDivThree.appendChild(containerTwoInsideDivFour);
-containerTwoInsideDivFour.appendChild(containerTwoInsideDivFourValue);
-//containerTwoInsideDivFour.innerHTML = document.querySelector('.dx-card-secondary > div > div > h4').innerText;
+//containerTwoInsideDivFour.appendChild(containerTwoInsideDivFourValue);
+containerTwoInsideDivFour.innerHTML = document.querySelector('.dx-card-secondary > div > div > p');
 
 //Creating Inside five div container two
 var containerTwoInsideDivFive = document.createElement('div');
@@ -105,10 +105,10 @@ containerTwoInsideDivFive.appendChild(containerTwoInsideDivSix);
 
 //Creating Inside div seven para container two with value
 var containerTwoInsideDivSeven = document.createElement('p');
-var containerTwoInsideDivSevenValue = document.querySelector('.dx-card-secondary > div > div > p');
+//var containerTwoInsideDivSevenValue = document.querySelector('.dx-card-secondary > div > div > p');
 containerTwoInsideDivSix.appendChild(containerTwoInsideDivSeven);
-containerTwoInsideDivSeven.appendChild(containerTwoInsideDivSevenValue);
-//containerTwoInsideDivSeven.innerHTML = document.querySelector('.dx-card-secondary > div > div > h4').innerText;
+//containerTwoInsideDivSeven.appendChild(containerTwoInsideDivSevenValue);
+containerTwoInsideDivSeven.innerHTML = document.querySelector('.dx-card-secondary > div > div > p');
 
 // //Creating Inside div eight ul container two
 // var containerTwoInsideDivUL = document.createElement('ul');
