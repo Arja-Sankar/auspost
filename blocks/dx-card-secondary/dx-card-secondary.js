@@ -88,7 +88,7 @@ containerTwoInsideDivTwo.appendChild(containerTwoInsideDivThree);
 //var containerTwoInsideDivFourValue = document.querySelector('.dx-card-secondary > div > div > p');
 //containerTwoInsideDivThree.appendChild(containerTwoInsideDivFour);
 //containerTwoInsideDivFour.appendChild(containerTwoInsideDivFourValue);
-containerTwoInsideDivThree.innerHTML = document.querySelector('.dx-card-secondary > div > div > p');
+containerTwoInsideDivThree.appendChild(document.querySelector('.dx-card-secondary > div > div > p'));
 
 //Creating Inside five div container two
 var containerTwoInsideDivFive = document.createElement('div');
@@ -108,7 +108,7 @@ containerTwoInsideDivFive.appendChild(containerTwoInsideDivSix);
 //var containerTwoInsideDivSevenValue = document.querySelector('.dx-card-secondary > div > div > p');
 //containerTwoInsideDivSix.appendChild(containerTwoInsideDivSeven);
 //containerTwoInsideDivSeven.appendChild(containerTwoInsideDivSevenValue);
-containerTwoInsideDivSix.innerHTML = document.querySelector('.dx-card-secondary > div > div > p');
+containerTwoInsideDivSix.appendChild(document.querySelector('.dx-card-secondary > div > div > p'));
 
 // //Creating Inside div eight ul container two
 // var containerTwoInsideDivUL = document.createElement('ul');
