@@ -182,46 +182,46 @@ var containerTwoInsideDivvThreee = document.createElement('div');
 containerTwoInsideDivvThreee.setAttribute('class','rte-wrapper');
 containerTwoInsideDivvTwoo.appendChild(containerTwoInsideDivvThreee);
 
-// //Creating Inside div four para container two with value
-// var containerTwoInsideDivvvFourValue = document.querySelector('.dx-text-media > div > div > p');
-// containerTwoInsideDivvThreee.appendChild(containerTwoInsideDivvvFourValue);
+//Creating Inside div four para container two with value
+var containerTwoInsideDivvvFourValue = document.querySelectorAll('.dx-text-media > div > div > p')[2];
+containerTwoInsideDivvThreee.appendChild(containerTwoInsideDivvvFourValue);
 
-// //Creating Inside five div container two
-// var containerTwoInsideDivvvFive = document.createElement('div');
-// //adding class
-// containerTwoInsideDivvvFive.setAttribute('class','tile-copy');
-// containerTwoInsideDivvv.appendChild(containerTwoInsideDivvvFive);
+//Creating Inside five div container two
+var containerTwoInsideDivvvFive = document.createElement('div');
+//adding class
+containerTwoInsideDivvvFive.setAttribute('class','tile-copy');
+containerTwoInsideDivvv.appendChild(containerTwoInsideDivvvFive);
 
-// //Creating Inside six div container two
-// var containerTwoInsideDivvSixx = document.createElement('div');
-// //adding class
-// containerTwoInsideDivvSixx.setAttribute('class','rte-wrapper');
-// containerTwoInsideDivvSixx.classList.add('cmp-text');
-// containerTwoInsideDivvvFive.appendChild(containerTwoInsideDivvSixx);
+//Creating Inside six div container two
+var containerTwoInsideDivvSixx = document.createElement('div');
+//adding class
+containerTwoInsideDivvSixx.setAttribute('class','rte-wrapper');
+containerTwoInsideDivvSixx.classList.add('cmp-text');
+containerTwoInsideDivvvFive.appendChild(containerTwoInsideDivvSixx);
 
-// //Creating Inside div seven para container two with value
-// //var containerTwoInsideDivvvSeven = document.createElement('p');
-// var containerTwoInsideDivvvSevenValue = document.querySelector('.dx-text-media > div > div > p');
-// //containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSeven);
-// containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSevenValue);
+//Creating Inside div seven para container two with value
+//var containerTwoInsideDivvvSeven = document.createElement('p');
+var containerTwoInsideDivvvSevenValue = document.querySelectorAll('.dx-text-media > div > div > p')[3];
+//containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSeven);
+containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSevenValue);
 
-// var containerEightDivvvv = document.createElement('div');
-// containerEightDivvvv.setAttribute('class', 'cta-wrapper');
-// containerEightDivvvv.classList.add('cta-wrapper--row','cta-wrapper--left');
-// containerDivvTwoo.appendChild(containerEightDivvvv);
+var containerEightDivvvv = document.createElement('div');
+containerEightDivvvv.setAttribute('class', 'cta-wrapper');
+containerEightDivvvv.classList.add('cta-wrapper--row','cta-wrapper--left');
+containerDivvTwoo.appendChild(containerEightDivvvv);
 
-// var anchorNewOne = document.createElement('a');
-// var anchorValueOne =  document.querySelector('.dx-text-media > div > div > p').innerText;
-// var anchorLinkk =  document.querySelectorAll('.dx-text-media > div > div')[2].innerText;
-// anchorNew.setAttribute('id','cta-1-638208-490290');
-// anchorNew.setAttribute('class','link-chevron');
-// anchorNew.setAttribute('href',anchorLinkk);
-// anchorNew.setAttribute('title',anchorValueOne);
-// anchorNew.setAttribute('data-event','site interaction');
-// anchorNew.setAttribute('data-category','card|packaging-options|li');
-// anchorNew.setAttribute('data-description','shop-packaging');
-// anchorNew.setAttribute('aria-labelledby','cta-1-638208-490290 card-title-id-1');
-// containerEightDivvvv.appendChild(anchorNewOne);
-// anchorNewOne.innerHTML = anchorValueOne;
-// document.querySelectorAll('.dx-text-media > div > div')[1].style.display = 'none';
-// document.querySelectorAll('.dx-text-media > div > div')[2].style.display = 'none';
+var anchorNewOne = document.createElement('a');
+var anchorValueOne = document.querySelectorAll('.dx-text-media > div > div > p')[4];
+var anchorLinkk =  document.querySelectorAll('.dx-text-media > div > div > p')[5];
+anchorNew.setAttribute('id','cta-1-638208-490290');
+anchorNew.setAttribute('class','link-chevron');
+anchorNew.setAttribute('href',anchorLinkk);
+anchorNew.setAttribute('title',anchorValueOne);
+anchorNew.setAttribute('data-event','site interaction');
+anchorNew.setAttribute('data-category','card|packaging-options|li');
+anchorNew.setAttribute('data-description','shop-packaging');
+anchorNew.setAttribute('aria-labelledby','cta-1-638208-490290 card-title-id-1');
+containerEightDivvvv.appendChild(anchorNewOne);
+anchorNewOne.innerHTML = anchorValueOne;
+document.querySelectorAll('.dx-text-media > div > div > p')[4].style.display = 'none';
+document.querySelectorAll('.dx-text-media > div > div > p')[5].style.display = 'none';
