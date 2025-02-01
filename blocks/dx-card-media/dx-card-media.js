@@ -132,7 +132,7 @@ var anchorLinkk =  document.querySelectorAll('.dx-card-media > div > div > p > a
 anchorNeww.setAttribute('id','cta-2-425472-470346');
 anchorNeww.setAttribute('class','link-chevron');
 anchorNeww.setAttribute('href',anchorLinkk);
-anchorNeww.setAttribute('title',anchorValue);
+anchorNeww.setAttribute('title',anchorValuee);
 anchorNeww.setAttribute('data-event','site interaction');
 anchorNeww.setAttribute('data-category','card|same-day|li');
 anchorNeww.setAttribute('data-description','next-flight');
