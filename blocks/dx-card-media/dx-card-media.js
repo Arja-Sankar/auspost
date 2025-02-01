@@ -142,6 +142,7 @@ anchorNeww.innerHTML = anchorValuee;
 // document.querySelectorAll('.dx-card-media > div > div')[1].style.display = 'none';
 // document.querySelectorAll('.dx-card-media > div > div')[2].style.display = 'none';
 document.querySelectorAll('.dx-card-media > div > div')[1].style.display = 'none';
+document.querySelectorAll('.dx-card-media > div > div')[2].style.display = 'none';
 //---------------------------------
 
 // //Creating Inside div two
