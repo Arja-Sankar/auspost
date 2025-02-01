@@ -122,3 +122,5 @@ anchorNew.setAttribute('data-description','learn-more');
 anchorNew.setAttribute('aria-labelledby','cta-1-628236-624912 card-title-id-0');
 containerEightDivvv.appendChild(anchorNew);
 anchorNew.innerHTML = anchorValue;
+document.querySelectorAll('.dx-text-media > div > div')[1].style.display = 'none';
+document.querySelectorAll('.dx-text-media > div > div')[2].style.display = 'none';
