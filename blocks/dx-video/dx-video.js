@@ -99,8 +99,7 @@ var containerInsidervideoTwo = document.createElement('div');
 //adding class
 containerInsidervideoTwo.setAttribute('class','vp-wrapper');  
 containerInsidervideoOne.appendChild(containerInsidervideoTwo);
-var divIframe = <iframe width="640" height="360" src="https://www.youtube.com/embed/E6qQxbyB47I" title="Rationale Partnership | StarTrack" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>;
-containerInsidervideoTwo.appendChild(divIframe);
+containerInsidervideoTwo.innerHTML = '<iframe width="640" height="360" src="https://www.youtube.com/embed/E6qQxbyB47I" title="Rationale Partnership | StarTrack" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
 
 // var containerInsidervideoThree = document.createElement('iframe');
 // var videosrc = document.querySelector('.dx-video > div > div > p').innerText;
