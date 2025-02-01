@@ -429,13 +429,13 @@ var containerrTwoInsideDivvSevenValue = document.querySelectorAll('.dx-card-medi
 containerrTwoInsideDivvSix.appendChild(containerrTwoInsideDivvSevenValue);
 
 var containerrEightDivvv = document.createElement('div');
-containerrEightDivvv.setAttribute('class', 'cta-wrapper');
+containerrEightDivvv.setAttribute('class','cta-wrapper');
 containerrEightDivvv.classList.add('cta-wrapper--row','cta-wrapper--left');
 containerrDivvTtwo.appendChild(containerrEightDivvv);
 
 var anchorrrNew = document.createElement('a');
-var anchorrrValue =  document.querySelectorAll('.dx-card-media > div > div > p')[10];
-var anchorrrLink =  document.querySelectorAll('.dx-card-media > div > div > p')[12].textContent;
+var anchorrrValue =  document.querySelectorAll('.dx-card-media > div > div > p')[8].textContent;
+var anchorrrLink =  document.querySelectorAll('.dx-card-media > div > div > p')[10].textContent;
 anchorrrNew.setAttribute('id','cta-1-545136-498600');
 anchorrrNew.setAttribute('class','link-chevron');
 anchorrrNew.setAttribute('href',anchorrrLink);
@@ -450,8 +450,8 @@ anchorrrNew.innerHTML = anchorrrValue;
 //document.querySelectorAll('.dx-card-media > div > div')[2].style.display = 'none';
 
 var anchorrrNeww = document.createElement('a');
-var anchorrrValuee = document.querySelectorAll('.dx-card-media > div > div > p')[11];
-var anchorrrLinkk =  document.querySelectorAll('.dx-card-media > div > div > p')[13].textContent;
+var anchorrrValuee = document.querySelectorAll('.dx-card-media > div > div > p')[9].textContent;
+var anchorrrLinkk =  document.querySelectorAll('.dx-card-media > div > div > p')[11].textContent;
 anchorrrNeww.setAttribute('id','cta-2-490290-550122');
 anchorrrNeww.setAttribute('class','link-chevron');
 anchorrrNeww.setAttribute('href',anchorrrLinkk);
