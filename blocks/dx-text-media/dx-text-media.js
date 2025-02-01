@@ -183,7 +183,7 @@ containerTwoInsideDivvThreee.setAttribute('class','rte-wrapper');
 containerTwoInsideDivvTwoo.appendChild(containerTwoInsideDivvThreee);
 
 //Creating Inside div four para container two with value
-var containerTwoInsideDivvvFourValue = document.querySelectorAll('.dx-text-media > div > div > p')[2].textContent;
+var containerTwoInsideDivvvFourValue = document.querySelectorAll('.dx-text-media > div > div > p')[2];
 containerTwoInsideDivvThreee.appendChild(containerTwoInsideDivvvFourValue);
 
 // //Creating Inside five div container two
