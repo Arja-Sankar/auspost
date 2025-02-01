@@ -99,20 +99,20 @@ var containerInsidervideoTwo = document.createElement('div');
 //adding class
 containerInsidervideoTwo.setAttribute('class','vp-wrapper');  
 containerInsidervideoOne.appendChild(containerInsidervideoTwo);
-
-var containerInsidervideoThree = document.createElement('iframe');
-var videosrc = document.querySelector('.dx-video > div > div > p').innerText;
-//adding class
-containerInsidervideoThree.setAttribute('class','player');
-containerInsidervideoThree.setAttribute('id','video-player-596658-402204');
-containerInsidervideoThree.setAttribute('data-video-id','E6qQxbyB47I');
-containerInsidervideoThree.setAttribute('frameborder','0');
-containerInsidervideoThree.setAttribute('allowfullscreen','');
-containerInsidervideoThree.setAttribute('allow','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
-containerInsidervideoThree.setAttribute('referrerpolicy','strict-origin-when-cross-origin');
-containerInsidervideoThree.setAttribute('title','Rationale Partnership | StarTrack');
-containerInsidervideoThree.setAttribute('width','640');
-containerInsidervideoThree.setAttribute('height','360');
-containerInsidervideoThree.setAttribute('src',videosrc);
-containerInsidervideoTwo.appendChild(containerInsidervideoThree);
-document.querySelector('.dx-video > div > div > p').style.display = 'none';
+containerInsidervideoTwo.innerHTML = <iframe width="640" height="360" src="https://www.youtube.com/embed/E6qQxbyB47I" title="Rationale Partnership | StarTrack" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+// var containerInsidervideoThree = document.createElement('iframe');
+// var videosrc = document.querySelector('.dx-video > div > div > p').innerText;
+// //adding class
+// containerInsidervideoThree.setAttribute('class','player');
+// containerInsidervideoThree.setAttribute('id','video-player-596658-402204');
+// containerInsidervideoThree.setAttribute('data-video-id','E6qQxbyB47I');
+// containerInsidervideoThree.setAttribute('frameborder','0');
+// containerInsidervideoThree.setAttribute('allowfullscreen','');
+// containerInsidervideoThree.setAttribute('allow','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+// containerInsidervideoThree.setAttribute('referrerpolicy','strict-origin-when-cross-origin');
+// containerInsidervideoThree.setAttribute('title','Rationale Partnership | StarTrack');
+// containerInsidervideoThree.setAttribute('width','640');
+// containerInsidervideoThree.setAttribute('height','360');
+// containerInsidervideoThree.setAttribute('src',videosrc);
+// containerInsidervideoTwo.appendChild(containerInsidervideoThree);
+// document.querySelector('.dx-video > div > div > p').style.display = 'none';
