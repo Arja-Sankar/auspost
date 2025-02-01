@@ -409,24 +409,24 @@ containerrTwoInsideDivvTwo.appendChild(containerrTwoInsideDivvThree);
 var containerrTwoInsideDivvFourValue = document.querySelectorAll('.dx-card-media > div > div > p')[8];
 containerrTwoInsideDivvThree.appendChild(containerrTwoInsideDivvFourValue);
 
-// //Creating Inside five div container two
-// var containerrTwoInsideDivvFive = document.createElement('div');
-// //adding class
-// containerrTwoInsideDivvFive.setAttribute('class','tile-copy');
-// containerrTwoInsideDivv.appendChild(containerrTwoInsideDivvFive);
+//Creating Inside five div container two
+var containerrTwoInsideDivvFive = document.createElement('div');
+//adding class
+containerrTwoInsideDivvFive.setAttribute('class','tile-copy');
+containerrTwoInsideDivv.appendChild(containerrTwoInsideDivvFive);
 
-// //Creating Inside six div container two
-// var containerrTwoInsideDivvSix = document.createElement('div');
-// //adding class
-// containerrTwoInsideDivvSix.setAttribute('class','rte-wrapper');
-// containerrTwoInsideDivvSix.classList.add('cmp-text');
-// containerrTwoInsideDivvFive.appendChild(containerrTwoInsideDivvSix);
+//Creating Inside six div container two
+var containerrTwoInsideDivvSix = document.createElement('div');
+//adding class
+containerrTwoInsideDivvSix.setAttribute('class','rte-wrapper');
+containerrTwoInsideDivvSix.classList.add('cmp-text');
+containerrTwoInsideDivvFive.appendChild(containerrTwoInsideDivvSix);
 
-// //Creating Inside div seven para container two with value
-// //var containerrTwoInsideDivvSeven = document.createElement('p');
-// var containerrTwoInsideDivvSevenValue = document.querySelectorAll('.dx-card-media > div > div > p')[8];
-// //containerrTwoInsideDivvSix.appendChild(containerrTwoInsideDivvSeven);
-// containerrTwoInsideDivvSix.appendChild(containerrTwoInsideDivvSevenValue);
+//Creating Inside div seven para container two with value
+//var containerrTwoInsideDivvSeven = document.createElement('p');
+var containerrTwoInsideDivvSevenValue = document.querySelectorAll('.dx-card-media > div > div > p')[8];
+//containerrTwoInsideDivvSix.appendChild(containerrTwoInsideDivvSeven);
+containerrTwoInsideDivvSix.appendChild(containerrTwoInsideDivvSevenValue);
 
 // var containerrEightDivvv = document.createElement('div');
 // containerrEightDivvv.setAttribute('class', 'cta-wrapper');
