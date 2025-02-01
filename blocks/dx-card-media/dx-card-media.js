@@ -23,7 +23,7 @@ sectionElemen.appendChild(containerDivv);
 var containerInsideDivv = document.createElement('div');
 //adding class
 containerInsideDivv.setAttribute('class','flex-container');
-containerInsideDivv.classList.add('flex-container--multi-33','flex-container--center');
+containerInsideDivv.classList.add('flex-container--multi-25','flex-container--center');
 containerDivv.appendChild(containerInsideDivv);
 
 //Creating Inside div two
@@ -49,7 +49,7 @@ articleElemen.appendChild(containerInsideDivvthree);
 var containerInsideDivvfour = document.createElement('div');
 //adding class
 containerInsideDivvfour.setAttribute('class','adpimg__container');
-containerInsideDivvfour.classList.add('adpimg__display--rectangle','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h50-v50','card-8-tester');
+containerInsideDivvfour.classList.add('adpimg__display--rectangle','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h75-v50','card-8-tester');
 containerInsideDivvthree.appendChild(containerInsideDivvfour);
 
 var pictu = document.querySelector('.dx-card-media > div > div > picture');
@@ -113,14 +113,14 @@ containerDivvTwo.appendChild(containerEightDivvv);
 var anchorNew = document.createElement('a');
 var anchorValue =  document.querySelector('.dx-card-media > div > div > p').innerText;
 var anchorLink =  document.querySelectorAll('.dx-card-media > div > div > p > a')[0].href;
-anchorNew.setAttribute('id','cta-1-628236-624912');
+anchorNew.setAttribute('id','cta-1-521868-588348');
 anchorNew.setAttribute('class','link-chevron');
 anchorNew.setAttribute('href',anchorLink);
 anchorNew.setAttribute('title',anchorValue);
 anchorNew.setAttribute('data-event','site interaction');
-anchorNew.setAttribute('data-category','card|freight-services|li');
-anchorNew.setAttribute('data-description','learn-more');
-anchorNew.setAttribute('aria-labelledby','cta-1-628236-624912 card-title-id-0');
+anchorNew.setAttribute('data-category','card|same-day|li');
+anchorNew.setAttribute('data-description','courier');
+anchorNew.setAttribute('aria-labelledby','cta-1-521868-588348 card-title-id-0');
 containerEightDivvv.appendChild(anchorNew);
 anchorNew.innerHTML = anchorValue;
 
@@ -232,14 +232,14 @@ containerDivvTwoo.appendChild(containerEightDivvvv);
 var anchorNewOne = document.createElement('a');
 var anchorValueOne = document.querySelectorAll('.dx-card-media > div > div > p > a')[2].textContent;
 var anchorLinkk =  document.querySelectorAll('.dx-card-media > div > div > p > a')[6].href;
-anchorNewOne.setAttribute('id','cta-1-638208-490290');
+anchorNewOne.setAttribute('id','cta-1-594996-480318');
 anchorNewOne.setAttribute('class','link-chevron');
 anchorNewOne.setAttribute('href',anchorLinkk);
 anchorNewOne.setAttribute('title',anchorValueOne);
 anchorNewOne.setAttribute('data-event','site interaction');
-anchorNewOne.setAttribute('data-category','card|packaging-options|li');
-anchorNewOne.setAttribute('data-description','shop-packaging');
-anchorNewOne.setAttribute('aria-labelledby','cta-1-638208-490290 card-title-id-1');
+anchorNewOne.setAttribute('data-category','card|next-day|li');
+anchorNewOne.setAttribute('data-description','premium');
+anchorNewOne.setAttribute('aria-labelledby','cta-1-594996-480318 card-title-id-1');
 containerEightDivvvv.appendChild(anchorNewOne);
 anchorNewOne.innerHTML = anchorValueOne;
 document.querySelectorAll('.dx-card-media > div > div')[4].style.display = 'none';
@@ -334,14 +334,14 @@ containerDivvTwooo.appendChild(containerEighttDivvvv);
 var anchorNewOnee = document.createElement('a');
 var anchorValueOnee = document.querySelectorAll('.dx-card-media > div > div > p')[6].textContent;
 var anchorLinkkk =  document.querySelectorAll('.dx-card-media > div > div > p > a')[5].href;
-anchorNewOnee.setAttribute('id','cta-1-508572-531840');
+anchorNewOnee.setAttribute('id','cta-1-443754-443754');
 anchorNewOnee.setAttribute('class','link-chevron');
 anchorNewOnee.setAttribute('href',anchorLinkkk);
 anchorNewOnee.setAttribute('title',anchorValueOne);
 anchorNewOnee.setAttribute('data-event','site interaction');
-anchorNewOnee.setAttribute('data-category','card|help-and-support|li');
-anchorNewOnee.setAttribute('data-description','help-and-support');
-anchorNewOnee.setAttribute('aria-labelledby','cta-1-508572-531840 card-title-id-2');
+anchorNewOnee.setAttribute('data-category','card|road|li');
+anchorNewOnee.setAttribute('data-description','road-express');
+anchorNewOnee.setAttribute('aria-labelledby','cta-1-443754-443754 card-title-id-2');
 containerEighttDivvvv.appendChild(anchorNewOnee);
 anchorNewOnee.innerHTML = anchorValueOnee;
 document.querySelectorAll('.dx-card-media > div > div ')[7].style.display = 'none';
@@ -396,7 +396,7 @@ document.querySelector('.card-85-tester > picture > img').setAttribute('class', 
 // var containerTwoInsideDivvTwo = document.createElement('h4');
 // //adding class
 // containerTwoInsideDivvTwo.setAttribute('class','tile-title');
-// containerTwoInsideDivvTwo.setAttribute('id','card-title-id-0');
+// containerTwoInsideDivvTwo.setAttribute('id','card-title-id-3');
 // containerTwoInsideDivv.appendChild(containerTwoInsideDivvTwo);
 
 // //Creating Inside three div container two
@@ -436,14 +436,14 @@ document.querySelector('.card-85-tester > picture > img').setAttribute('class', 
 // var anchorrNew = document.createElement('a');
 // var anchorrValue =  document.querySelectorAll('.dx-card-media > div > div > p')[10];
 // var anchorrLink =  document.querySelectorAll('.dx-card-media > div > div > p')[12].textContent;
-// anchorrNew.setAttribute('id','cta-1-628236-624912');
+// anchorrNew.setAttribute('id','cta-1-545136-498600');
 // anchorrNew.setAttribute('class','link-chevron');
 // anchorrNew.setAttribute('href',anchorrLink);
 // anchorrNew.setAttribute('title',anchorrValue);
 // anchorrNew.setAttribute('data-event','site interaction');
-// anchorrNew.setAttribute('data-category','card|freight-services|li');
-// anchorrNew.setAttribute('data-description','learn-more');
-// anchorrNew.setAttribute('aria-labelledby','cta-1-628236-624912 card-title-id-0');
+// anchorrNew.setAttribute('data-category','card|special-and-secure-services|li');
+// anchorrNew.setAttribute('data-description','special-services');
+// anchorrNew.setAttribute('aria-labelledby','cta-1-545136-498600 card-title-id-3');
 // containerEightDivvv.appendChild(anchorrNew);
 // anchorrNew.innerHTML = anchorrValue;
 
@@ -452,14 +452,14 @@ document.querySelector('.card-85-tester > picture > img').setAttribute('class', 
 // var anchorrNeww = document.createElement('a');
 // var anchorrValuee = document.querySelectorAll('.dx-card-media > div > div > p')[11];
 // var anchorrLinkk =  document.querySelectorAll('.dx-card-media > div > div > p')[13].textContent;
-// anchorrNeww.setAttribute('id','cta-2-425472-470346');
+// anchorrNeww.setAttribute('id','cta-2-490290-550122');
 // anchorrNeww.setAttribute('class','link-chevron');
 // anchorrNeww.setAttribute('href',anchorrLinkk);
 // anchorrNeww.setAttribute('title',anchorrValuee);
 // anchorrNeww.setAttribute('data-event','site interaction');
-// anchorrNeww.setAttribute('data-category','card|same-day|li');
-// anchorrNeww.setAttribute('data-description','next-flight');
-// anchorrNeww.setAttribute('aria-labelledby','cta-2-425472-470346 card-title-id-0');
+// anchorrNeww.setAttribute('data-category','card|special-and-secure-services|li');
+// anchorrNeww.setAttribute('data-description','security-express');
+// anchorrNeww.setAttribute('aria-labelledby','cta-2-490290-550122 card-title-id-3');
 // containerEightDivvv.appendChild(anchorrNeww);
 // anchorrNeww.innerHTML = anchorrValuee;
 // // document.querySelectorAll('.dx-card-media > div > div')[1].style.display = 'none';
