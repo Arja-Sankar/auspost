@@ -124,3 +124,104 @@ containerEightDivvv.appendChild(anchorNew);
 anchorNew.innerHTML = anchorValue;
 document.querySelectorAll('.dx-text-media > div > div')[1].style.display = 'none';
 document.querySelectorAll('.dx-text-media > div > div')[2].style.display = 'none';
+
+//---------------------------------
+
+//Creating Inside div two
+var containerInsideDivvtwoo = document.createElement('div');
+//adding class
+containerInsideDivvtwoo.setAttribute('class','card');  
+containerInsideDivv.appendChild(containerInsideDivvtwoo);
+
+//creating article
+var articleElementdiv = document.createElement('article');
+//adding class to article
+articleElementdiv.setAttribute('class','tile');
+articleElementdiv.classList.add('tile--card','bg-color','tile--simulate-links');
+containerInsideDivvtwoo.appendChild(articleElementdiv);
+
+//Creating Inside div three
+var containerInsideDivvthreee = document.createElement('div');
+//adding class
+containerInsideDivvthreee.setAttribute('class','tile-image');  
+articleElementdiv.appendChild(containerInsideDivvthreee);
+
+//Creating Inside div four
+var containerInsideDivvfourr = document.createElement('div');
+//adding class
+containerInsideDivvfourr.setAttribute('class','adpimg__container');
+containerInsideDivvfourr.classList.add('adpimg__display--rectangle','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h50-v50','card-2-tester');
+containerInsideDivvthreee.appendChild(containerInsideDivvfourr);
+
+var pictuu = document.querySelector('.dx-text-media > div > div > picture');
+containerInsideDivvfourr.appendChild(pictuu);
+
+document.querySelector('.card-2-tester > picture > img').setAttribute('class', 'adpimg__img');
+
+//creating div container two
+var containerDivvTwoo = document.createElement('div');
+//adding class to container Div
+containerDivvTwoo.setAttribute('class','tile-content');  
+articleElementdiv.appendChild(containerDivvTwoo);
+
+//Creating Inside div container two
+var containerTwoInsideDivvv = document.createElement('div');
+//adding class
+containerTwoInsideDivvv.setAttribute('class','tile-content-copy');
+containerDivvTwoo.appendChild(containerTwoInsideDivvv);
+
+//Creating Inside two div container two
+var containerTwoInsideDivvTwoo = document.createElement('h4');
+//adding class
+containerTwoInsideDivvTwoo.setAttribute('class','tile-title');
+containerTwoInsideDivvv.appendChild(containerTwoInsideDivvTwoo);
+
+//Creating Inside three div container two
+var containerTwoInsideDivvThreee = document.createElement('div');
+//adding class
+containerTwoInsideDivvThreee.setAttribute('class','rte-wrapper');
+containerTwoInsideDivvTwoo.appendChild(containerTwoInsideDivvThreee);
+
+//Creating Inside div four para container two with value
+var containerTwoInsideDivvvFourValue = document.querySelector('.dx-text-media > div > div > p');
+containerTwoInsideDivvThreee.appendChild(containerTwoInsideDivvvFourValue);
+
+//Creating Inside five div container two
+var containerTwoInsideDivvvFive = document.createElement('div');
+//adding class
+containerTwoInsideDivvvFive.setAttribute('class','tile-copy');
+containerTwoInsideDivvv.appendChild(containerTwoInsideDivvvFive);
+
+//Creating Inside six div container two
+var containerTwoInsideDivvSixx = document.createElement('div');
+//adding class
+containerTwoInsideDivvSixx.setAttribute('class','rte-wrapper');
+containerTwoInsideDivvSixx.classList.add('cmp-text');
+containerTwoInsideDivvvFive.appendChild(containerTwoInsideDivvSixx);
+
+//Creating Inside div seven para container two with value
+//var containerTwoInsideDivvvSeven = document.createElement('p');
+var containerTwoInsideDivvvSevenValue = document.querySelector('.dx-text-media > div > div > p');
+//containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSeven);
+containerTwoInsideDivvSixx.appendChild(containerTwoInsideDivvvSevenValue);
+
+var containerEightDivvvv = document.createElement('div');
+containerEightDivvvv.setAttribute('class', 'cta-wrapper');
+containerEightDivvvv.classList.add('cta-wrapper--row','cta-wrapper--left');
+containerDivvTwoo.appendChild(containerEightDivvvv);
+
+var anchorNewOne = document.createElement('a');
+var anchorValueOne =  document.querySelector('.dx-text-media > div > div > p').innerText;
+var anchorLinkk =  document.querySelectorAll('.dx-text-media > div > div')[2].innerText;
+anchorNew.setAttribute('id','cta-1-638208-490290');
+anchorNew.setAttribute('class','link-chevron');
+anchorNew.setAttribute('href',anchorLinkk);
+anchorNew.setAttribute('title',anchorValueOne);
+anchorNew.setAttribute('data-event','site interaction');
+anchorNew.setAttribute('data-category','card|packaging-options|li');
+anchorNew.setAttribute('data-description','shop-packaging');
+anchorNew.setAttribute('aria-labelledby','cta-1-638208-490290 card-title-id-1');
+containerEightDivvvv.appendChild(anchorNewOne);
+anchorNewOne.innerHTML = anchorValueOne;
+document.querySelectorAll('.dx-text-media > div > div')[1].style.display = 'none';
+document.querySelectorAll('.dx-text-media > div > div')[2].style.display = 'none';
