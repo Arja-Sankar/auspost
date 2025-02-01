@@ -10,8 +10,8 @@ mainDiv.appendChild(containerDiv);
 
 //Anchor tag embeded
 var endingAnchor = document.createElement('a');
-var insightContentOne = document.querySelectorAll('.dx-cta > div > div > p')[0].innerText;
-var insightContentlink = document.querySelectorAll('.dx-cta > div > div > p')[1].innerText;
+var insightContentOne = document.querySelectorAll('.dx-cta-secondary > div > div > p')[0].innerText;
+var insightContentlink = document.querySelectorAll('.dx-cta-secondary > div > div > p')[1].innerText;
 endingAnchor.setAttribute('id','cta-1-533502-508572');
 endingAnchor.setAttribute('class','btn');
 endingAnchor.classList.add('btn--primary','btn--medium');
@@ -22,5 +22,5 @@ endingAnchor.setAttribute('data-category','|btn');
 endingAnchor.setAttribute('data-description','enquire-about-a-startrack-account');
 containerDiv.appendChild(endingAnchor);
 endingAnchor.innerHTML = insightContentOne;
-document.querySelectorAll('.dx-cta > div > div > p')[0].style.display = 'none'
-document.querySelectorAll('.dx-cta > div > div > p')[1].style.display = 'none'
+document.querySelectorAll('.dx-cta-secondary > div > div > p')[0].style.display = 'none'
+document.querySelectorAll('.dx-cta-secondary > div > div > p')[1].style.display = 'none'
