@@ -6,21 +6,24 @@ import { loadFragment } from '../fragment/fragment.js';
  * @param {Element} block The footer block element
  */
 export default async function decorate(block) {
-  // load footer as fragment
-  const footerMeta = getMetadata('footer');
-  const footerPath = footerMeta ? new URL(footerMeta, window.location).pathname : '/footer';
-  const fragment = await loadFragment(footerPath);
-
-  // decorate footer DOM
+   const cfg = readBlockConfig(block);
   block.textContent = '';
-  var footer = document.createElement('div');
-   footer.innerHTML = html;
-  // while (fragment.firstElementChild) footer.append(fragment.firstElementChild);
+
+  // fetch footer content
+  const footerPath = cfg.footer || '/footer';
+  const resp = await fetch(`${footerPath}.plain.html`, window.location.pathname.endsWith('/footer') ? { cache: 'reload' } : {});
+
+  if (resp.ok) {
+   const html = await resp.text();
+
+    // decorate footer DOM
+ const footer = document.createElement('div');
+ footer.innerHTML = html;
+
+   decorateIcons(footer);
+   block.append(footer); 
   var mainFooter = document.querySelector('.footer-wrapper > .footer.block');
-  var footerDiv = document.createElement('div');
-  div.setAttribute('class','footer-test');
-  mainFooter.appendChild(footerDiv);
-footerDiv.innerHTML =  `
+mainFooter.innerHTML =  `
 <div class="inner-footer">
     <div class="flex-container flex-container--multi-50">
         <!-- Logos -->
@@ -110,5 +113,5 @@ footerDiv.innerHTML =  `
     </div>
     </div>
 `;
-  block.append(footer);
+ 
 }
