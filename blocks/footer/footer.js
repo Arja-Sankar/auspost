@@ -6,25 +6,23 @@ import { loadFragment } from '../fragment/fragment.js';
  * @param {Element} block The footer block element
  */
 export default async function decorate(block) {
-   const cfg = readBlockConfig(block);
+  // load footer as fragment
+  const footerMeta = getMetadata('footer');
+  const footerPath = footerMeta ? new URL(footerMeta, window.location).pathname : '/footer';
+  const fragment = await loadFragment(footerPath);
+
+  // decorate footer DOM
   block.textContent = '';
+  const footer = document.createElement('div');
+  while (fragment.firstElementChild) footer.append(fragment.firstElementChild);
+  block.append(footer);
 
-  // fetch footer content
-  const footerPath = cfg.footer || '/footer';
-  const resp = await fetch(`${footerPath}.plain.html`, window.location.pathname.endsWith('/footer') ? { cache: 'reload' } : {});
-
-  if (resp.ok) {
-   const html = await resp.text();
-
-    // decorate footer DOM
- const footer = document.createElement('div');
- footer.innerHTML = html;
-
-   decorateIcons(footer);
-   block.append(footer); 
-  var mainFooter = document.querySelector('.footer-wrapper > .footer.block');
-mainFooter.innerHTML =  `
-<div class="inner-footer">
+     var footerContent = document.querySelector('.footer-wrapper > .footer.block > div');
+    footerContent.style.display = 'none';
+   //console.log(footerContent);
+    
+    var mainFooter = document.querySelector('.footer-wrapper > .footer.block');
+mainFooter.innerHTML =  `<div class="inner-footer">
     <div class="flex-container flex-container--multi-50">
         <!-- Logos -->
         <div>
@@ -111,7 +109,5 @@ mainFooter.innerHTML =  `
             Copyright © StarTrack Express Pty Limited trading as StarTrack ABN 44 001 227 890
         </div>
     </div>
-    </div>
-`;
-  }
+    </div>`;
 }
