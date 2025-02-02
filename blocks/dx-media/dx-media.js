@@ -151,13 +151,13 @@ articleElementdiv.appendChild(containerInsideDivvthreee);
 var containerInsideDivvfourr = document.createElement('div');
 //adding class
 containerInsideDivvfourr.setAttribute('class','adpimg__container');
-containerInsideDivvfourr.classList.add('adpimg__display--rectangle','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h50-v50','card-2-tester');
+containerInsideDivvfourr.classList.add('adpimg__display--rectangle','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h50-v50','card-22-tester');
 containerInsideDivvthreee.appendChild(containerInsideDivvfourr);
 
 var pictuu = document.querySelector('.dx-media > div > div > picture');
 containerInsideDivvfourr.appendChild(pictuu);
 
-document.querySelector('.card-2-tester > picture > img').setAttribute('class', 'adpimg__img');
+document.querySelector('.card-22-tester > picture > img').setAttribute('class', 'adpimg__img');
 
 //creating div container two
 var containerDivvTwoo = document.createElement('div');
@@ -253,13 +253,13 @@ articleElementdivv.appendChild(containerInsideDivvthreeee);
 var containerInsideDivvfourrr = document.createElement('div');
 //adding class
 containerInsideDivvfourrr.setAttribute('class','adpimg__container');
-containerInsideDivvfourrr.classList.add('adpimg__display--rectangle','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h50-v50','card-3-tester');
+containerInsideDivvfourrr.classList.add('adpimg__display--rectangle','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h50-v50','card-33-tester');
 containerInsideDivvthreeee.appendChild(containerInsideDivvfourrr);
 
 var pictuuu = document.querySelector('.dx-media > div > div > picture');
 containerInsideDivvfourrr.appendChild(pictuuu);
 
-document.querySelector('.card-3-tester > picture > img').setAttribute('class', 'adpimg__img');
+document.querySelector('.card-33-tester > picture > img').setAttribute('class', 'adpimg__img');
 
 //creating div container two
 var containerDivvTwooo = document.createElement('div');
