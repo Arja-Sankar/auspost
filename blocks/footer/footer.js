@@ -17,11 +17,12 @@ export default async function decorate(block) {
   while (fragment.firstElementChild) footer.append(fragment.firstElementChild);
   block.append(footer);
 
-     var footerContent = document.querySelector('.footer-wrapper > .footer.block > div');
-    footerContent.style.display = 'none';
+    //  var footerContent = document.querySelector('.footer-wrapper > .footer.block > div');
+    // footerContent.style.display = 'none';
    //console.log(footerContent);
     
     var mainFooter = document.querySelector('.footer-wrapper > .footer.block');
+  mainFooter.setAttribute('class','outline-footer');
 mainFooter.innerHTML =  `<div class="inner-footer">
     <div class="flex-container flex-container--multi-50">
         <!-- Logos -->
