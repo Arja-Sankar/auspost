@@ -12,13 +12,7 @@ export default async function decorate(block) {
   const fragment = await loadFragment(footerPath);
 
   // decorate footer DOM
-  block.textContent = '';
-  var footer = document.createElement('div');
-  // while (fragment.firstElementChild) footer.append(fragment.firstElementChild);
-  var footerDiv = document.createElement('div');
-  div.setAttribute('class','footer-test');
-  footer.appendChild(footerDiv);
-footerDiv.innerHTML =  `
+  block.textContent =  `
 <div class="inner-footer">
     <div class="flex-container flex-container--multi-50">
         <!-- Logos -->
@@ -107,6 +101,12 @@ footerDiv.innerHTML =  `
         </div>
     </div>
     </div>
-`
+`;
+  var footer = document.createElement('div');
+  // while (fragment.firstElementChild) footer.append(fragment.firstElementChild);
+  var footerDiv = document.createElement('div');
+  div.setAttribute('class','footer-test');
+  footer.appendChild(footerDiv);
+footerDiv.innerHTML = 
   block.append(footer);
 }
