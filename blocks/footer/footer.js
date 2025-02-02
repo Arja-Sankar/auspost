@@ -105,10 +105,10 @@ mainFooter.innerHTML =  `<div class="inner-footer">
                 </span>
             </a>
         </div>
-        <!-- Copyright Mobile View-->
-        <div class="copyright-mobile">
-            Copyright © StarTrack Express Pty Limited trading as StarTrack ABN 44 001 227 890
-        </div>
+        // <!-- Copyright Mobile View-->
+        // <div class="copyright-mobile">
+        //     Copyright © StarTrack Express Pty Limited trading as StarTrack ABN 44 001 227 890
+        // </div>
     </div>
     </div>`;
 }
