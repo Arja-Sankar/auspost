@@ -108,9 +108,10 @@ footDivone.appendChild(footLinksDiv);
     var footcpyrightDiv = document.createElement('div');
   footcpyrightDiv.setAttribute('class','copyright');
 footDivone.appendChild(footcpyrightDiv);
- footcpyrightDiv.innerHTML = document.querySelectorAll('.default-content-wrapper > p')[4].innerText;
+ footcpyrightDiv.innerHTML = document.querySelectorAll('.default-content-wrapper > p')[2].textContent;
 
   document.querySelectorAll('.default-content-wrapper > p')[3].style.display = 'none';
    document.querySelectorAll('.default-content-wrapper > p')[4].style.display = 'none';
+  document.querySelectorAll('.default-content-wrapper > p')[2].style.display = 'none';
  
 }
