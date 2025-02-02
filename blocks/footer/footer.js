@@ -121,6 +121,7 @@ document.querySelector('.dx-copyright > div > div > p').style.display = 'none';
             </a>`;
 var footlastDiv = document.createElement('div');
 footlastDiv.setAttribute('class','atsifooter');
+   mainFooter.appendChild(footlastDiv);
  footlastDiv .innerHTML = `  <div class="atsifooter__container">
          <img class="atsifooter__img" src="/content/dam/global/svg-icons/custom/logos/ap-acknowledgement-logos.svg" alt="" aria-hidden="true" tabindex="-1">
      <div class="atsifooter__msg font-caption">
@@ -130,5 +131,16 @@ footlastDiv.setAttribute('class','atsifooter');
 </div>
 </div>
 </div>`;
-  mainFooter.appendChild(footlastDiv);
+ 
+  var footlasttDiv = document.createElement('div');
+  footlasttDiv.setAttribute('class','atsifooter__container');
+  footlastDiv.appendChild(footlasttDiv);
+
+  var footImg = document.createElement('img');
+  var Imgsrc = document.querySelector('.dx-footendimg > div > div > picture > img').src;
+  footImg.setAttribute('src,Imgsrc);
+   footImg.setAttribute('alt','');
+   footImg.setAttribute('aria-hidden','true');
+   footImg.setAttribute('tabindex','1');
+  document.querySelector('.dx-footendimg > div > div').style.display = 'none';
 }
