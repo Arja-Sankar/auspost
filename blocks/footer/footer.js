@@ -12,7 +12,7 @@ export default async function decorate(block) {
   const fragment = await loadFragment(footerPath);
 
   // decorate footer DOM
-  block.textContent =  `
+  block.innerHTML =  `
 <div class="inner-footer">
     <div class="flex-container flex-container--multi-50">
         <!-- Logos -->
