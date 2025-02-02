@@ -114,14 +114,17 @@ document.querySelector('.dx-copyright > div > div > p').style.display = 'none';
   var footanchor = document.createElement('div');
   footanchor.setAttribute('class','social');
   footDivone.appendChild(footanchor);
-  
-var footlastDiv = document.createElement('div');
-footlastDiv.setAttribute('class','atsifooter');
-   mainFooter.appendChild(footlastDiv);
- footlastDiv .innerHTML = `  <div class="atsifooter__msg font-caption">
+  footanchor.innerHTML = `<div class="atsifooter">
+  <div class="atsifooter__container">
+         <img class="atsifooter__img" src="https://startrack.com.au/content/dam/global/svg-icons/custom/logos/ap-acknowledgement-logos.svg" alt="" aria-hidden="true" tabindex="-1">
+     <div class="atsifooter__msg font-caption">
        <div class="rte-wrapper cmp-text">
   <p>Australia Post acknowledges the Traditional Custodians of the land on which we operate, live and gather as &ZeroWidthSpace;a team. We recognise their continuing connection &ZeroWidthSpace;to land, water and community. We pay respect to Elders &ZeroWidthSpace;past, present and emerging.<br>
 </p>
+</div>
+</div>
+  </div>
 </div>`;
+
  
 }
