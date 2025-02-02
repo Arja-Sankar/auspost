@@ -110,5 +110,5 @@ footDivone.appendChild(footLinksDiv);
 footDivone.appendChild(footcpyrightDiv);
  footcpyrightDiv.innerHTML = document.querySelector('.dx-copyright > div > div > p').textContent;
 
-document.querySelector('.dx-copyright > div > div > p').textContentstyle.display = 'none';
+document.querySelector('.dx-copyright > div > div > p').style.display = 'none';
 }
