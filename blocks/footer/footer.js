@@ -142,5 +142,6 @@ footlastDiv.setAttribute('class','atsifooter');
    footImg.setAttribute('alt','');
    footImg.setAttribute('aria-hidden','true');
    footImg.setAttribute('tabindex','1');
+  footlasttDiv.appendChild(footImg);
   document.querySelector('.dx-footendimg > div > div').style.display = 'none';
 }
