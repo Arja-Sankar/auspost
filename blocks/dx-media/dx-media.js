@@ -134,30 +134,30 @@ var containerInsideDivvtwoo = document.createElement('div');
 containerInsideDivvtwoo.setAttribute('class','card');  
 containerInsideDivv.appendChild(containerInsideDivvtwoo);
 
-// //creating article
-// var articleElementdiv = document.createElement('article');
-// //adding class to article
-// articleElementdiv.setAttribute('class','tile');
-// articleElementdiv.classList.add('tile--card','bg-color','tile--simulate-links');
-// containerInsideDivvtwoo.appendChild(articleElementdiv);
+//creating article
+var articleElementdiv = document.createElement('article');
+//adding class to article
+articleElementdiv.setAttribute('class','tile');
+articleElementdiv.classList.add('tile--card','bg-color','tile--simulate-links');
+containerInsideDivvtwoo.appendChild(articleElementdiv);
 
-// //Creating Inside div three
-// var containerInsideDivvthreee = document.createElement('div');
-// //adding class
-// containerInsideDivvthreee.setAttribute('class','tile-image');  
-// articleElementdiv.appendChild(containerInsideDivvthreee);
+//Creating Inside div three
+var containerInsideDivvthreee = document.createElement('div');
+//adding class
+containerInsideDivvthreee.setAttribute('class','tile-image');  
+articleElementdiv.appendChild(containerInsideDivvthreee);
 
-// //Creating Inside div four
-// var containerInsideDivvfourr = document.createElement('div');
-// //adding class
-// containerInsideDivvfourr.setAttribute('class','adpimg__container');
-// containerInsideDivvfourr.classList.add('adpimg__display--rectangle','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h50-v50','card-2-tester');
-// containerInsideDivvthreee.appendChild(containerInsideDivvfourr);
+//Creating Inside div four
+var containerInsideDivvfourr = document.createElement('div');
+//adding class
+containerInsideDivvfourr.setAttribute('class','adpimg__container');
+containerInsideDivvfourr.classList.add('adpimg__display--rectangle','adpimg__obj-fit','js-object-fit','adpimg__obj-fit--h50-v50','card-2-tester');
+containerInsideDivvthreee.appendChild(containerInsideDivvfourr);
 
-// var pictuu = document.querySelector('.dx-media > div > div > picture');
-// containerInsideDivvfourr.appendChild(pictuu);
+var pictuu = document.querySelector('.dx-media > div > div > picture');
+containerInsideDivvfourr.appendChild(pictuu);
 
-// document.querySelector('.card-2-tester > picture > img').setAttribute('class', 'adpimg__img');
+document.querySelector('.card-2-tester > picture > img').setAttribute('class', 'adpimg__img');
 
 // //creating div container two
 // var containerDivvTwoo = document.createElement('div');
