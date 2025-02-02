@@ -315,8 +315,8 @@ containerEighttDivvvv.classList.add('cta-wrapper--column','cta-wrapper--left');
 containerDivvTwooo.appendChild(containerEighttDivvvv);
 
 var anchorNewOnee = document.createElement('a');
-var anchorValueOnee = document.querySelectorAll('.dx-media> div > p')[4].innerText;
-var anchorLinkkk =  document.querySelectorAll('.dx-media > div > div > p')[5].innerText;
+var anchorValueOnee =  document.querySelectorAll('.dx-media > div > div > p')[4].textContent;
+var anchorLinkkk =   document.querySelectorAll('.dx-media > div > div > p > a')[4].href
 anchorNewOnee.setAttribute('id','cta-1-510234-614940');
 anchorNewOnee.setAttribute('class','link-chevron');
 anchorNewOnee.setAttribute('href',anchorLinkkk);
